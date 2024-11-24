@@ -1,0 +1,1459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+  
+  <meta name="Author" content="Dominique RICHIER PRAG-HC (retraité) de physique appliquée : Département R&amp;T - IUT de NANCY-BRABOIS - Université de Lorraine">
+
+  
+  <meta name="Date" content="madi 17 janvier 2017 11:30">
+
+  
+  <meta name="Copyright" content="Copyright© 2016-2017 [ DR ]. Tous droits réservés.">
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Équation des télégraphistes</title>
+
+  
+  
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"></script>
+  
+  <style type="text/css">
+img {
+  margin: 1% auto;
+  display: block;
+  max-width: 100%;
+}
+p {
+  line-height: 2.0em;
+}
+  </style>
+</head><body>
+<h1>Équation des télégraphistes.</h1>
+
+<h2>1. Modélisation électrique d'un élément
+de longueur d'une ligne bifilaire ou d'un câble coaxial.</h2>
+
+<h3>1.1. Schéma de modélisation.</h3>
+
+<img style="width: 662px; height: 320px;" alt="Modèle électrique ligne bifilaire..." src="../images/TELEGR_00.jpeg">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On modélise un tronçon d'une ligne bifilaire qui
+s'étend suivant l'axe des cotes <span style="font-weight: bold;">z</span>,
+entre les plans de cote <span style="font-weight: bold;">z</span> et <span style="font-weight: bold;">z+dz</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- L' est l'inductance linéique de la ligne (H.m<sup>-1</sup>).
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- R' est la résistance linéique de la ligne (Ω.m<sup>-1</sup>).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- G' est la conductance linéique de la ligne (S.m<sup>-1</sup>).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- C' est la capacité linéique de la ligne (F.m<sup>-1</sup>).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- <span style="font-weight: bold;">V</span><sub style="font-weight: bold;">z</sub> : potentiel au point M dans le plan
+de cote <span style="font-weight: bold;">z</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- <span style="font-weight: bold;">I</span><sub style="font-weight: bold;">z</sub> : courant au point M dans le plan
+de cote <span style="font-weight: bold;">z</span>.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- <span style="font-weight: bold;">V</span><sub style="font-weight: bold;">z+dz</sub> : potentiel au point M' dans le
+plan
+de cote <span style="font-weight: bold;">z+dz</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- <span style="font-weight: bold;">I</span><sub style="font-weight: bold;">z+dz</sub> : courant au point M' dans le
+plan
+de cote <span style="font-weight: bold;">z+dz</span>.
+</p>
+
+<h3>1.2. Exemples.</h3>
+
+<h4>1.2.1. Données relatives au câble coaxial.</h4>
+
+<img style="width: 540px; height: 444px;" alt="Câble coaxial..." src="../images/TELEGR_01.jpeg">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+Deux conducteurs métalliques C<sub>1</sub> et C<sub>2</sub> de
+forme cylindrique, coaxiaux, de longueur "infinie" sont en influence
+totale.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- C<sub>1</sub> est le conducteur central, c'est un fil de cuivre.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- C<sub>2</sub> constitue la tresse métallique,
+formée de fils de cuivre entrecroisés...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On suppose que l’espace entre les conducteurs C<sub>1</sub> et C<sub>2</sub>
+est occupé par un isolant (diélectrique) dont la
+permittivité
+diélectrique relative est égale à <span style="font-weight: bold; font-style: italic;">ε</span><sub style="font-weight: bold; font-style: italic;">r</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On démontre que la capacité linéique
+(capacité par unité de longueur) du câble coaxial
+est donnée par la relation :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`C'=(2 pi epsilon_0 epsilon_r)/ln(D_2/D_1)`.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : <span style="font-style: italic;">ε</span><sub style="font-style: italic;">0</sub> est la permittivité
+diélectrique du vide, avec&nbsp; `epsilon_0=1/(36 pi 10^9)` F.m<sup>-1</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : ε<sub>r</sub> est la permittivité
+diélectrique relative du diélectrique (c'est un nombre
+pur).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : D<sub>2</sub> est le diamètre "occupé"
+par le
+conducteur central et le diélectrique.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : D<sub>1</sub> est le diamètre du conducteur
+central.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On démontre également que l'inductance linéique
+(inductance par unité de longueur) du câble coaxial
+est donnée par la relation :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'=mu_0/(2 pi) ln(D_2/D_1)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : <span style="font-style: italic;">μ</span><sub style="font-style: italic;">0</sub> est la perméabilité
+magnétique du vide, avec&nbsp; `mu_0=4 pi 10^(-7)` H.m<sup>-1</sup>.</p>
+
+<h4>1.2.2. Données relatives à la ligne bifilaire.</h4>
+
+<img style="width: 510px; height: 356px;" alt="Ligne bifilaire..." src="../images/TELEGR_02.jpeg">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+Deux fils conducteurs rectilignes infiniment longs sont distants de D
+. Les fils sont parallèles entre eux et à l'axe Oz ; ils
+sont contenus dans le plan (Ox, Oz). Les fils ont le même
+diamètre <span style="font-weight: bold;">d</span> ;
+l’axe de
+symétrie du fil situé à gauche de l'axe Oz passe
+le point&nbsp; `A(-D/2,0,0)` ; l’axe de symétrie du fil
+situé à droite de l'axe Oz passe par le point&nbsp;
+`B(D/2,0,0)`. Les deux fils conducteurs sont séparés par
+un isolant (diélectrique) de permittivité
+diélectrique relative <span style="font-weight: bold; font-style: italic;">ε</span><sub style="font-weight: bold; font-style: italic;">r</sub> ; on suppose
+que <span style="font-weight: bold;">d &lt;&lt; D</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On démontre que la capacité linéique
+(capacité par unité de longueur) de la ligne bifilaire
+est donnée par la relation :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`C'=(pi epsilon_0 epsilon_r)/ln((2D-d)/d)`.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : <span style="font-style: italic;">ε</span><sub style="font-style: italic;">0</sub> est la permittivité
+diélectrique du vide, avec&nbsp; `epsilon_0=1/(36 pi 10^9)` F.m<sup>-1</sup><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : ε<sub>r</sub> est la permittivité
+diélectrique relative du diélectrique (c'est un nombre
+pur).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : D est la distance entre les deux fils conducteurs.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : d est le diamètre de chacun des
+fils conducteurs.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+On démontre également que l'inductance linéique
+(inductance par unité de longueur) de la ligne bifilaire
+est donnée par la relation :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'=mu_0/pi ln((2D-d)/d)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où : <span style="font-style: italic;">μ</span><sub style="font-style: italic;">0</sub> est la perméabilité
+magnétique du vide, avec&nbsp; `mu_0=4 pi 10^(-7)` H.m<sup>-1</sup>.</p>
+
+<h3>1.3. Les équations de l'électricité.</h3>
+
+<h4>1.3.1. Appliquons la loi des branches entre les points M et M'.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp;
+`V_z - V_(z+dz)= L'dz(del I_z)/(del t)+R'dzI_z`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Soit :&nbsp; `-(del V_z )/(del z) dz= L'dz(del I_z)/(del
+t)+R'dzI_z&nbsp; rArr -(del V_z )/(del z)= L'(del I_z)/(del t)+R'I_z`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit encore :&nbsp; `-(del V )/(del z)= L'(del I)/(del
+t)+R'I`.</p>
+
+<h4>1.3.2. Appliquons la loi des nœuds au point M'.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp;
+`I_z=G'dzV_z+C'dz(del V_z)/(del t)+I_(z+dz)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+• Soit :&nbsp; `-(del I_z)/(del z)dz=G'dzV_z+C'dz(del V_z)/(del t)
+rArr -(del I_z)/(del z)=G'V_z+C'(del V_z)/(del t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit encore :&nbsp; `-(del I)/(del z)=C'(del V)/(del
+t)+G'V`.</p>
+
+<h4>1.3.3. Supposons que la ligne soit sans pertes.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Cette
+hypothèse nous indique qu'il n'y a pas consommation de puissance
+active, ici il s'agirait de l'effet Joule&nbsp; `rArr R'=0` et&nbsp;
+`G'=0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Les équations
+de l'électricité s'écrivent alors : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`color (navy)(-(del V )/(del z)= L'(del I)/(del
+t))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`color (navy)(-(del I)/(del z)=C'(del V)/(del
+t))`.</p>
+
+<h2>2. Recherche de la solution de l'équation des
+télégraphistes.</h2>
+
+<h3>2.1. Intéressons nous au potentiel V.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Dérivons la
+relation :&nbsp; `-(del V )/(del z)= L'(del I)/(del
+t)` par rapport à la cote <span style="font-weight: bold;">z</span>
+à <span style="font-weight: bold;">t </span>= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `-(del^2 V )/(del z^2)= L'(del^2 I)/(del z del
+t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Dérivons la
+relation :&nbsp; `-(del I)/(del z)=C'(del V)/(del
+t)` par rapport au temps <span style="font-weight: bold;">t</span>
+à <span style="font-weight: bold;">z </span>= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `-(del^2 I)/(del t del z)=C'(del^2 V)/(del
+t^2)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Nous supposons que le
+potentiel V et le courant I, vérifient la relation de <span style="font-weight: bold;">SCHWARZ</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `(del^2 I)/(del z del
+t)=(del^2 I)/(del t del z) rArr -1/(L')(del^2 V)/(del z^2)=-C'(del^2
+V)/(del t^2)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp; `color (navy)((del^2 V)/(del z^2)-L'C'(del^2 V)/(del
+t^2)=0)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Nous reconnaissons
+une équation des ondes de la forme :&nbsp; `(del^2 V)/(del
+z^2)-1/(c^2)(del^2 V)/(del t^2)=0`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Ici :&nbsp; `1/(c^2)=L'C' rArr color (navy)(c=1/sqrt(L'C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Le potentiel <span style="font-weight: bold;">V</span> <span style="font-style: italic;"><span style="text-decoration: underline;">obéit</span> <span style="text-decoration: underline;">à</span> <span style="text-decoration: underline;">une</span> <span style="text-decoration: underline;">équation</span> <span style="text-decoration: underline;">des</span> <span style="text-decoration: underline;">ondes</span></span>, la
+célérité <span style="font-weight: bold;">c</span>
+de cette onde dépend a priori des caractéristiques
+électriques de la ligne ; nous venons d'établir <span style="font-weight: bold; font-style: italic; color: navy;">l'équation</span>
+dite <span style="font-weight: bold; font-style: italic; color: navy;">des
+télégraphistes</span>.</p>
+
+<h3>2.2. Intéressons nous au courant I.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Dérivons la
+relation :&nbsp; `-(del V )/(del z)= L'(del I)/(del
+t)` par rapport au temps <span style="font-weight: bold;">t</span>
+à <span style="font-weight: bold;">z </span>= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `-(del^2 V )/(del t del z)= L'(del^2 I)/(del t^2)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Dérivons la
+relation :&nbsp; `-(del I)/(del z)=C'(del V)/(del
+t)` par rapport à la cote <span style="font-weight: bold;">z</span>
+à <span style="font-weight: bold;">t </span>= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `-(del^2 I)/(del^2 z)=C'(del^2 V)/(del z del
+t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • En vertu de la
+relation de <span style="font-weight: bold;">SCHWARZ</span>, il vient
+:&nbsp; `(del^2 V)/(del t del
+z)=(del^2 V)/(del z del t) rArr -L'(del^2 I)/(del t^2)=-1/(C')(del^2
+I)/(del z^2)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp; `color (navy)((del^2 I)/(del z^2)-L'C'(del^2 I)/(del
+t^2)=0)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Une nouvelle fois,
+nous reconnaissons
+une équation des ondes de la forme :&nbsp; `(del^2 I)/(del
+z^2)-1/(c^2)(del^2 I)/(del t^2)=0`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Ici :&nbsp; `1/(c^2)=L'C' rArr color (navy)(c=1/sqrt(L'C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Le courant <span style="font-weight: bold;">I</span> <span style="font-style: italic;"><span style="text-decoration: underline;">obéit</span> <span style="text-decoration: underline;">à</span> <span style="text-decoration: underline;">une</span> <span style="text-decoration: underline;">équation</span> <span style="text-decoration: underline;">des</span> <span style="text-decoration: underline;">ondes</span></span>, la
+célérité <span style="font-weight: bold;">c</span>
+de cette onde dépend a priori des caractéristiques
+électriques de la ligne.</p>
+
+<h3>2.3. Solution de l'équation des ondes concernant le
+potentiel V.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Partant de :&nbsp;
+`(del^2 V)/(del z^2)-1/(c^2)(del^2 V)/(del
+t^2)=0`, où `c=1/sqrt(L'C')`, nous savons que la solution de
+cette équation est la combinaison linéaire de deux
+fonctions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit : `color (navy)(V(t,z)=f_1(t-z/c)+g_1(t+z/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; `f_1(t-z/c)` est une onde de potentiel progressive, qui se
+propage
+dans le sens positif de l'axe des cotes.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; `g_1(t+z/c)` est une onde de potentiel rétrograde
+(ou
+régressive), qui se propage dans le sens négatif de l'axe
+des
+cotes, cette onde est liée à la réflexion de
+l'onde progressive sur un "obstacle", voire l'extrémité
+de la ligne...</p>
+
+<h3>2.4. Solution de l'équation des ondes concernant le courant
+I.</h3>
+
+<h4>2.4.1. Observation générale.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Partant de :&nbsp;
+`(del^2 I)/(del z^2)-1/(c^2)(del^2 I)/(del
+t^2)=0`, où `c=1/sqrt(L'C')`, nous savons que la solution de
+cette équation est la combinaison linéaire de deux
+fonctions.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit : `I(t,z)=f_2(t-z/c)+g_2(t+z/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; `f_2(t-z/c)` est une onde de courant progressive.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; `g_2(t+z/c)` est une onde de courant rétrograde (ou
+régressive).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Il est évident
+que l'onde de courant <span style="font-weight: bold;">I</span>, et
+l'onde de potentiel <span style="font-weight: bold;">V</span> ne sont
+pas indépendantes l'une de l'autre, en effet elles sont
+liées par les deux relations : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`-(del V )/(del z)= L'(del I)/(del
+t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`-(del I)/(del z)=C'(del V)/(del
+t)`.</p>
+
+<h4>2.4.2. Conséquences.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On suppose que
+l'on
+connaît la solution de l'onde de potentiel, soit :&nbsp;
+`V(t,z)=f_1(t-z/c)+g_1(t+z/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On fait le changement
+de variables : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`u=t-z/c`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`v=t+z/c`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Alors&nbsp; : `V(t,z)=f_1(u)+g_1(v)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `du=dt-1/cdz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `dv=dt+1/cdz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On pose :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `f_1^•(u)=(df_1(u))/(du)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `g_1^•(v)=(dg_1(v))/(dv)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Donnons l'expression
+de la différentielle de `f_1` :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`df_1=(del f_1)/(del t)dt+(del f_1)/(del z)dz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`df_1=f_1^•(u)(dt -1/cdz)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del f_1)/(del t)=f_1^•(u)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del f_1)/(del z)=-1/c f_1^•(u)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Donnons l'expression
+de la différentielle de `g_1` :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`dg_1=(del g_1)/(del t)dt+(del g_1)/(del z)dz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`dg_1=g_1^•(v)(dt +1/cdz)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del g_1)/(del t)=g_1^•(v)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del g_1)/(del z)=1/c g_1^•(v)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Partant de :&nbsp;
+`V(t,z)=f_1(u)+g_1(v)` <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `dV=(del V)/(del t)dt+(del V)/(del z)dz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•
+`dV=(f_1^•(u)+g_1^•(v))dt-1/c(f_1^•(u)-g_1^•(v))dz`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del V)/(del t)=f_1^•(u)+g_1^•(v)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `(del V)/(del z)=-1/c(f_1^•(u)-g_1^•(v))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • En prenant maintenant
+en compte les deux équations électriques, on peut
+écrire :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; `(del I)/(del t)=-1/(L')(del V)/(del z) rArr color (navy)((del
+I)/(del t)=1/(cL')(f_1^•(u)-g_1^•(v)))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; `(del I)/(del z)=-C'(del V)/(del t) rArr color (navy)((del
+I)/(del z)=-C'(f_1^•(u)+g_1^•(v)))`.</p>
+
+<h4>2.4.3. Intégration des équations portant sur le
+courant I.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Intégrons
+l'équation&nbsp; : `(del
+I)/(del t)=1/(cL')(f_1^•(u)-g_1^•(v))` par rapport au temps <span style="font-weight: bold;">t</span> à <span style="font-weight: bold;">z</span>
+= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit : `int (del
+I)/(del t)dt=int 1/(cL')(f_1^•(t)-g_1^•(t))dt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Car ici : u = t, v = t ; il vient :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `color (red)(I(t,z)= 1/(cL')(f_1(u)-g_1(v))`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span>
+On ne
+prend pas en compte l'éventuelle "constante
+d'intégration" dans la mesure où initialement la ligne
+est au repos (il n'y a pas d'onde de potentiel et de courant) et
+où l'on cherche
+l'équation d'une onde qui varie dans le temps, et dans l'espace,
+ici suivant la cote z.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Intégrons
+l'équation&nbsp; :`(del
+I)/(del z)=-C'(f_1^•(u)+g_1^•(v))` par rapport la cote <span style="font-weight: bold;">z</span> à <span style="font-weight: bold;">t</span>
+= constante.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit : `int (del
+I)/(del z)dz=int -C'(f_1^•(-z/c)+g_1^•(z/c))dz`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Car ici : u = -z/c, v = z/c ; il vient :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `color (red)(I(t,z)= cC'(f_1(u)-g_1(v))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Montrons que ces deux
+solutions sont identiques, aussi calculons respectivement les termes :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`1/(cL')` : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `1/(cL')=sqrt(L'C')/(L') rArr 1/(cL')=1/sqrt((L')/(C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`cC'` : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• `cC'=(C')/sqrt(L'C') rArr cC'=1/sqrt((L')/(C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La
+quantité&nbsp; `sqrt((L')/(C'))` est homogène à
+une résistance, c'est la résistance
+caractéristique de la ligne.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit :&nbsp; `color (navy)(R_C=sqrt((L')/(C')))`.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • L'onde de potentiel <span style="font-weight: bold;">V</span>
+s'écrit :&nbsp; `color (navy)(V(t,z)=f_1(t-z/c)+g_1(t+z/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • L'onde de courant <span style="font-weight: bold;">I</span>
+s'écrit :&nbsp; `color
+(navy)(I(t,z)=(f_1(t-z/c)-g_1(t+z/c))/R_C)`, avec `R_C=sqrt((L')/(C'))`.</p>
+
+<h3>2.5. Résumons.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne
+(<span style="font-style: italic;"><span style="text-decoration: underline;">sans</span> <span style="text-decoration: underline;">pertes</span></span>) est
+parcourue par une onde de potentiel V(t,z) et une
+onde de courant I(t,z).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • L'onde de potentiel
+se décompose en une onde progressive et une onde&nbsp;
+rétrograde (ou régressive) ; il en est de même pour
+l'onde de courant.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • L'onde de potentiel
+et l'onde de courant ne sont pas indépendantes.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut écrire
+:&nbsp; `color (navy)(V(t,z)=V^(+)(t-z/c)+V^(-)(t+z/c))` ;
+où&nbsp; `V^(+)(t-z/c)=f_1(t-z/c)` désigne l'onde de
+potentiel progressive, et où&nbsp; `V^(-)(t+z/c)=g_1(t+z/c)`
+désigne l'onde de potentiel rétrograde.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut aussi
+écrire :&nbsp; `color (navy)(I(t,z)=I^(+)(t-z/c)+I^(-)(t+z/c))`
+; où&nbsp; `color (navy)(I^(+)(t-z/c)=(V^(+)(t-z/c))/R_C)`, et
+où&nbsp; `color (navy)(I^(-)(t+z/c)=-(V^(-)(t+z/c))/R_C)`.&nbsp;
+`I^(+)(t-z/c)` désigne l'onde de courant
+progressive, et&nbsp;&nbsp; `I^(-)(t+z/c)` désigne l'onde de
+courant rétrograde.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp; Ici :&nbsp;
+`c=1/sqrt(L'C')` désigne la célérité de
+l'onde de potentiel et de l'onde de courant, <span style="font-weight: bold;">c</span> se mesure en m.s<sup>-1</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`R_C=sqrt((L')/(C'))` désigne la résistance
+caractéristique de la ligne, <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">C</sub> se mesure en Ω.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> On a
+choisi d'écrire ici :&nbsp; `I(t,z)=I^(+)(t-z/c)+I^(-)(t+z/c)` ;
+on applique donc le <span style="font-style: italic;"><span style="text-decoration: underline;">théorème</span> <span style="text-decoration: underline;">de</span> <span style="text-decoration: underline;">superposition</span></span>, les
+courants doivent alors être considérés comme des
+grandeurs algébriques.</p>
+
+<h3>2.6. Applications numériques.</h3>
+
+<h4>2.6.1. Cas du câble coaxial.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On donne
+: Diamètre occupé par le conducteur central et le
+diélectrique : D<sub>2</sub> = 7,1 mm.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Diamètre du conducteur central : D<sub>1</sub> = 2 mm.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Le diélectrique (isolant) est du polyéthylène de
+permittivité diélectrique relative ε<sub>r</sub>
+= 2,3.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On rappelle que&nbsp;
+:&nbsp; `C'=(2 pi epsilon_0 epsilon_r)/ln(D_2/D_1)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'=mu_0/(2 pi) ln(D_2/D_1)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`epsilon_0=1/(36 pi 10^9)` F.m<sup>-1</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`mu_0=4 pi 10^(-7)` H.m<sup>-1</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`c=1/sqrt(L'C')`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'C'=mu_0/(2 pi) ln(D_2/D_1)(2 pi epsilon_0 epsilon_r)/ln(D_2/D_1)
+rArr L'C'=mu_0 epsilon_0 epsilon_r`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `c=1/sqrt(mu_0 epsilon_0 epsilon_r)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp;&nbsp; `c=1/(sqrt(mu_0 epsilon_0)sqrt(epsilon_r))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- La quantité :&nbsp; `1/sqrt(mu_0 epsilon_0)` est
+homogène à une vitesse, c'est la <span style="font-style: italic;"><span style="text-decoration: underline;">célérité</span>
+<span style="text-decoration: underline;">des</span> <span style="text-decoration: underline;">ondes</span></span> de potentiel
+et de courant (on dit aussi, des ondes <span style="font-style: italic; text-decoration: underline;">électromagnétiques</span>)&nbsp;
+quand le diélectrique est le vide, et on pose `c_0=1/sqrt(mu_0
+epsilon_0)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Calculons c<sub>0</sub> :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `1/(mu_0
+epsilon_0)=(36 pi 10^9)/(4 pi 10^(-7))` m<sup>2</sup>.s<sup>-2</sup>
+;&nbsp; `1/(mu_0
+epsilon_0)=` 9.10<sup>16</sup> m<sup>2</sup>.s<sup>-2</sup><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; <span style="color: navy; font-weight: bold;">c</span><sub style="color: navy; font-weight: bold;">0</sub><span style="color: navy; font-weight: bold;"> = 3.10</span><sup style="color: navy; font-weight: bold;">8</sup><span style="color: navy; font-weight: bold;"> m.s</span><sup><span style="color: navy; font-weight: bold;">-</span>1</sup> (300<small><small>
+</small></small>000 km/s).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit alors :&nbsp; `c=c_0/sqrt(epsilon_r)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Ici :&nbsp; `c=(3.10^8)/sqrt(2,3)` m.s<sup>-1</sup>, <span style="color: navy;">c =
+1,978.10</span><sup style="color: navy;">8</sup><span style="color: navy;"> m.s</span><sup style="color: navy;">-1</sup> (c
+≈ 200<small><small> </small></small>000 km/s).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`R_C=sqrt((L')/(C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`(L')/(C')=mu_0/(2 pi) ln(D_2/D_1) ln(D_2/D_1)/(2 pi epsilon_0
+epsilon_r) rArr (L')/(C')=mu_0/(4 pi^2 epsilon_0 epsilon_r)
+ln^2(D_2/D_1)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`R_C=sqrt(mu_0/(epsilon_0)) ln(D_2/D_1)/(2 pi sqrt(epsilon_r))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- La quantité :&nbsp; `sqrt(mu_0/(epsilon_0))` est
+homogène à une résistance (impédance),
+c'est l'impédance d'un diélectrique constitué par
+le vide (<span style="font-style: italic;"><span style="text-decoration: underline;">impédance</span> <span style="text-decoration: underline;">du</span> <span style="text-decoration: underline;">vide</span></span>).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Posons :&nbsp; `Z_0=sqrt(mu_0/(epsilon_0))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Calculons Z<sub>0</sub> :&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `Z_0=sqrt(4 pi 10^-7 36 pi 10^9)` Ω, <span style="color: navy; font-weight: bold;">Z</span><sub style="color: navy; font-weight: bold;">0</sub><span style="color: navy; font-weight: bold;">
+= 120π Ω</span>, soit Z<sub>0</sub>
+≈ 377 Ω.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On écrit alors :&nbsp; `R_C=Z_0 ln(D_2/D_1)/(2 pi
+sqrt(epsilon_r))`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Ici :&nbsp; `R_C=120 pi ln((7,1)/2)/(2 pi
+sqrt(2,3))` Ω, <span style="color: navy;">R</span><sub style="color: navy;">C</sub><span style="color: navy;"> ≈
+50 Ω</span>.</p>
+
+<h4>2.6.2. Cas de la ligne bifilaire.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On donne
+: Distance entre les deux fils conducteurs : D = 4 mm.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Diamètre des fils conducteurs : d = 5/10 mm.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Le diélectrique (isolant) est du polychlorure de vinyle de
+permittivité diélectrique relative ε<sub>r</sub>
+= 3,0.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On rappelle que&nbsp;
+:&nbsp; `C'=(pi epsilon_0 epsilon_r)/ln((2D-d)/d)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'=mu_0/pi ln((2D-d)/d)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`c=1/sqrt(L'C')`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`L'C'=mu_0/pi ln((2D-d)/d) (pi epsilon_0 epsilon_r)/ln((2D-d)/d) rArr
+L'C'=mu_0 epsilon_0 epsilon_r`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Comme pour le
+câble coaxial, on en déduit que :&nbsp;
+`c=c_0/sqrt(epsilon_r)`, avec c<sub>0</sub> = 3.10<sup>8</sup> m.s<sup>-1</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`c=(3 10^8)/sqrt(3,0)` m.s<sup>-1</sup>, <span style="color: navy;">c
+= 1,73.10</span><sup style="color: navy;">8</sup><span style="color: navy;"> m.s</span><sup style="color: navy;">-1</sup> (c
+≈ 170<small><small> </small></small>000 km/s)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`R_C=sqrt((L')/(C'))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`(L')/(C')= mu_0/pi ln((2D-d)/d) ln((2D-d)/d)/(pi epsilon_0 epsilon_r)
+rArr (L')/(C')=mu_0/(pi^2 epsilon_0 epsilon_r) ln^2((2D-d)/d)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`R_C=sqrt(mu_0/epsilon_0) ln((2D-d)/d)/(pi sqrt(epsilon_r))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Comme pour le
+câble coaxial, on en déduit que :&nbsp; `R_C=Z_0
+ln((2D-d)/d)/(pi sqrt(epsilon_r))`, avec Z<sub>0</sub> = 120π
+Ω. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`R_C=120 pi
+ln((2 . 4-0,5)/(0,5))/(pi sqrt(3,0))` Ω, <span style="color: navy;">R</span><sub style="color: navy;">C</sub><span style="color: navy;"> = 187,6 Ω</span>.</p>
+
+<h2>3. Exemples d'illustration.</h2>
+
+<h3>3.1. Position du problème.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On
+considère
+un câble coaxial de résistance caractéristique <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">C</sub>,
+tel que la célérité des ondes de potentiel et de
+courant soit égale à <span style="font-weight: bold;">c</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne a une
+longueur <span style="font-weight: bold;">L</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne est
+alimentée par un générateur de tension qui
+délivre un échelon de tension (force
+électromotrice)&nbsp; `E = E_0.U(t)`, où&nbsp; `U(t)` est
+l'échelon unitaire, le générateur a une
+résistance interne <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">G</sub>.<br>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • À&nbsp; son
+extrémité (en z = L), la ligne charge une
+résistance <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">L</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp; On rappelle que
+: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`U(t) = 0` si t &lt; 0.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`U(t) = 1` si 0 ≤ t.<br>
+<img style="width: 558px; height: 188px;" alt="Illustration..." src="../images/TELEGR_03.jpeg"></p>
+
+<h3>3.2. Étude des ondes
+progressives de potentiel et de courant.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t &lt; 0, on
+est au repos, le potentiel et&nbsp; le courant sont nuls.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 0 ≤ t,&nbsp;
+les
+ondes progressives de potentiel et de courant s'installent.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On se place à
+l'entrée de la ligne, on cherche l'expression de V<sub>E</sub> =
+V(t,0) et
+de I<sub>E</sub> = I(t,0).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au début du
+régime transitoire il ne peut y avoir que les ondes progressives
+de tension et de courant issues du générateur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; On peut écrire :&nbsp; `V(t,0) = V^(+)(t,0)`, et&nbsp;
+`I(t,0) = I^(+)(t,0)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Or&nbsp; : `I^(+)(t,0)
+=(V^(+)(t,0))/R_C`, le générateur "<span style="font-style: italic;">voit</span>"
+une charge
+égale à R<sub>C</sub> à ses bornes.<br>
+<img style="width: 333px; height: 202px;" alt="Diviseur de tension..." src="../images/TELEGR_04.jpeg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • D'aprés la
+loi
+du diviseur de tension, on peut écrire : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V^(+)(t,0)=R_C/(R_G+R_C) E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Soit :&nbsp; `V^(+)(t,0)=A E_0 U(t)`, avec&nbsp;
+`A=R_C/(R_G+R_C)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp; À
+l'instant t,
+au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z</span>, on a :&nbsp; `V^(+)(t-z/c)=R_C
+I^(+)(t-z/c)`, les
+ondes progressives de tension et de courant, "<span style="font-style: italic;">voient</span>" la
+résistance caractéristique R<sub>C</sub> de la ligne.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut alors
+écrire :&nbsp; `color (navy)(V^(+)(t-z/c)=A E_0 U(t-z/c))`,
+et&nbsp; `color (navy)(I^(+)(t-z/c)=(A E_0)/R_C U(t-z/c))`.</p>
+
+<h3>3.3. Réflexion des ondes progressives de potentiel et de
+courant à l'extrémité de la ligne, naissance des
+ondes rétrogrades de tension et de courant.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Après une
+durée&nbsp; `tau=L/c`, les ondes progressives de potentiel et de
+courant atteignent l'extrémité de la ligne de longueur L,
+ligne qui est "<span style="font-style: italic;">chargée</span>"
+par la résistance R<sub>L</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • À
+l'extrémité de la ligne vont alors apparaître (a
+priori) des ondes rétrogrades de potentiel et de courant, ces
+ondes vont se <span style="font-style: italic;">superposer</span> aux
+ondes progressives.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut alors
+écrire <span style="font-style: italic;">à chaque instant</span>,
+en <span style="font-weight: bold;">z</span> = <span style="font-weight: bold;">L</span> :&nbsp;
+`V(t,L)=V^(+)(t-L/c)+V^(-)(t+L/c)`, et&nbsp;
+`I(t,L)=I^(+)(t-L/c)+I^(-)(t+L/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Avec :&nbsp; `I^(+)(t-L/c)=(V^(+)(t-L/c))/R_C`, et&nbsp;&nbsp;
+`I^(-)(t+L/c)=-(V^(-)(t+L/c))/R_C`.<br>
+<img style="width: 227px; height: 180px;" alt="Loi d'Ohm à l'extrémité de la ligne..." src="../images/TELEGR_05.jpeg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Suivant la loi de
+OHM, on peut écrire : `V(t,L)=R_L I(t,L)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Soit :&nbsp; `V(t,L)=R_L(I^(+)(t-L/c)+I^(-)(t+L/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Ou bien :&nbsp;
+`V(t,L)=R_L((V^(+)(t-L/c))/R_C-(V^(-)(t+L/c))/R_C)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Soit :&nbsp; `V^(+)(t-L/c)+V^(-)(t+L/c)=R_L/R_C (V^(+)(t-L/c) -
+V^(-)(t+L/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Il vient :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`(R_L/R_C+1)V^(-)(t+L/c)=(R_L/R_C-1)V^(+)(t-L/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp; `V^(-)(t+L/c)=(R_L-R_C)/(R_L+R_C) V^(+)(t-L/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On pose :&nbsp;
+`color (navy)(Gamma(L)=(R_L-R_C)/(R_L+R_C))`, c'est le <span style="font-weight: bold; font-style: italic;">coefficient de
+réflexion</span> de l'onde progressive de potentiel à
+l'extrémité de la ligne.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • À
+l'extrémité de la ligne l'onde de potentiel
+rétrograde, est liée à l'onde de potentiel
+progressive par la relation :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`color (navy)(V^(-)(t+L/c)=Gamma(L) V^(+)(t-L/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Comme&nbsp; `I^(-)(t+L/c)=-(V^(-)(t+L/c))/R_C`, il vient :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `I^(-)(t+L/c)=-Gamma(L) (V^(+)(t-L/c))/R_C`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Avec :&nbsp;&nbsp; `I^(+)(t-L/c)=(V^(+)(t-L/c))/R_C`,
+et&nbsp;&nbsp; `color (navy)(I^(-)(t+L/c)=-Gamma(L) I^(+)(t-L/c))`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> Si&nbsp;
+`color (red)(Gamma(L)=0)`, alors&nbsp; `color (red)(V^(-)(t+L/c)=0)`,
+et&nbsp; `color (red)(I^(-)(t+L/c)=0)`, <span style="font-weight: bold; font-style: italic; color: red;">il n'y a
+pas pas d'ondes réfléchies</span> (<span style="font-weight: bold; font-style: italic; background-color: white; color: red;">d'ondes
+rétrogrades</span>)&nbsp; de potentiel et de courant, on dit que
+<span style="font-style: italic; color: red;"><span style="text-decoration: underline;">la</span> "<span style="text-decoration: underline;">charge</span>" <span style="text-decoration: underline;">est</span> <span style="text-decoration: underline;">adaptée</span> <span style="text-decoration: underline;">à</span> <span style="text-decoration: underline;">la</span> <span style="text-decoration: underline;">ligne</span></span>, alors pour la
+ligne sans pertes : `color (red)(R_L= R_C)`. Tout se passe alors comme
+si la ligne était de longueur infinie.</p>
+
+<h3>3.4. Quelles sont les ondes présentes sur la ligne
+pour&nbsp; t ∈ [ τ, 2 τ ] ?</h3>
+
+<h4>3.4.1. Conditionnement des équations.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On rappelle
+que&nbsp;
+`tau=L/c` est le temps mis par les ondes de potentiel et de courant
+pour parcourir la ligne de longueur L.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Considérons
+uniquement l'onde de potentiel, l'onde de courant se déduisant
+de l'onde de potentiel par la relation :&nbsp; `I(t,z)=(V^(+)(t-L/c) -
+V^(-)(t+L/c))/R_C`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z</span>, on peut écrire :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V^(+)(t-z/c)=A E_0 U(t-z/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z = L</span>, on peut écrire :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V^(-)(t+L/c)=Gamma(L) V^(+)(t-L/c)`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> À
+partir de la date origine (t - τ), avec τ ≤ t , l'onde de
+potentiel rétrograde se propage du point de cote z = L au point
+de cote z, en parcourant la distance (L - z) avec la
+célérité c.<br>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On en déduit :&nbsp; `V^(-)(t+z/c)=A E_0 Gamma(L)
+U(t-tau-(L-z)/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp; `V^(-)(t+z/c)=A E_0 Gamma(L) U(t+z/c-2tau)`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> On a bien
+affaire
+à une onde rétrograde car dans l'expression de&nbsp;
+`V^(-)(t+z/c)` apparaît justement le terme&nbsp; `color
+(red)(t+z/c)`...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Et :&nbsp; `color(red)(V(t,z)=A E_0 U(t-z/c) + A E_0 Gamma(L)
+U(t+z/c-2tau))`.</p>
+
+<h4>3.4.2. Étude de l'onde de potentiel en des points
+particuliers de la ligne.</h4>
+
+<h4>3.4.2.1. À l'extrémité de la ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Alors : z = L.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(t,L)=A E_0 U(t-tau) + A E_0 Gamma(L) U(t-tau)`,
+soit&nbsp; `V(t,L)=A E_0 (1+ Gamma(L)) U(t-tau)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On procède
+à l'observation à la date τ ≤ t :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(t,L)=A E_0 (1+ Gamma(L))`.</p>
+
+<h4>3.4.2.2. À l'entrée de la ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Alors : z → 0<sup>+</sup>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(t,0^(+))=A E_0 U(t) + A E_0 Gamma(L)
+U(t+tau_0^(+)-2tau)`, où `tau_0^(+)=lim_(z-&gt;0^(+)) z/c`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On procède
+à l'observation à la date t = 2τ :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(2 tau,0^(+))=A E_0 (1+ Gamma(L)) U(tau_0^(+))`,
+et&nbsp; `V(2 tau,0^(+))=A E_0 (1+ Gamma(L))`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> On
+retrouve à l'entrée de la ligne "ce qui
+se passe" à son extrémité L à la
+date τ ≤ t.</p>
+
+<h4>3.4.2.3. Tableau donnant l'évolution de l'onde de potentiel
+(méthode du tableau).</h4>
+
+<img style="width: 937px; height: 163px;" alt="Méthode du tableau..." src="../images/TELEGR_06.jpeg">
+<h3>3.5. Réflexion de l'onde de potentiel rétrograde
+à
+l'entrée de la ligne, naissance d'une onde de potentiel
+progressive "<span style="font-style: italic;">secondaire</span>".</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 2τ ≤
+t,
+les
+ondes rétrogrades de potentiel et de courant vont
+atteindre l'origine de la ligne, ligne qui est maintenant
+"c<span style="font-style: italic;">hargée</span>" par la
+résistance R<sub>G</sub> du
+générateur (résistance de sortie du
+générateur de <span style="font-weight: bold;">THEVENIN</span>
+que constitue la source)...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Ces mêmes ondes
+vont donc subir une réflexion pour donner naissance à des
+ondes progressives "<span style="font-style: italic;">secondaires</span>",
+si le coefficient de réflexion à l'origine Γ(0)
+est différent de zéro.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Avec :&nbsp; `Gamma(0)=(R_G-R_C)/(R_G+R_C)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut écrire
+ici :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V_((2))^(+)(t-0/c)=Gamma(0)V^(-)(t+0/c)`, et&nbsp;
+`I_((2))^(+)(t-0/c)=-Gamma(0)I^(-)(t+0/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Où :&nbsp;&nbsp; `V_((2))^(+)(t-z/c)` est l'onde de potentiel
+progressive secondaire.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Où :&nbsp;&nbsp; `I_((2))^(+)(t-z/c)` est l'onde de courant
+progressive secondaire.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> Si&nbsp;
+`Gamma(0)=0`, alors&nbsp; `V_((2))^(+)(t-z/c)=0` et&nbsp;
+`I_((2))^(+)(t-z/c)=0`, il n'y a pas d'ondes progressives "<span style="font-style: italic;">secondaires</span>".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Or :&nbsp; `Gamma(0)=(R_G-R_C)/(R_G+R_C) rArr R_G=R_C`, il y a
+adaptation "d'impédance" entre la ligne et le
+générateur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Ici :&nbsp;
+`V_((2))^(+)(t-z/c)= A E_0 Gamma(0) Gamma(L) U(t-z/c-2tau)`.
+</p>
+
+<h3>3.6. Tableau donnant l'évolution de l'onde de potentiel
+(méthode du tableau).</h3>
+
+<h4>3.6.1. La méthode du tableau dans le cas
+général.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On suppose une
+fois
+encore (pour des raisons évidentes de simplification...) que le
+générateur délivre une force électromotrice
+en forme d'échelon :&nbsp; `E(t)=E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne a une
+longueur <span style="font-weight: bold;">L</span>, la
+célérité des ondes
+électromagnétiques y est égale à <span style="font-weight: bold;">c</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On donne :&nbsp;
+`A=R_C/(R_G+R_C)`,&nbsp; `Gamma(L)=(R_L-R_C)/(R_L+R_C)`,&nbsp;
+`Gamma(0)=(R_G-R_C)/(R_G+R_C)`, et&nbsp; `tau=L/c`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On dresse le tableau.</p>
+
+<img style="width: 1335px; height: 284px;" alt="Tableau dans le cas général..." src="../images/TELEGR_07.jpeg">
+<h4>3.6.2. Premier exemple.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On utilise une
+ligne
+de résistance caractéristique R<sub>C</sub> = 75 Ω,
+de longueur
+L = 10 m, la célérité des ondes
+électromagnétiques est égale à c = 2.10<sup>8</sup>
+m.s<sup>-</sup>1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La résistance
+interne du générateur de tension est égale
+à R<sub>G</sub> = 50 Ω, il délivre une force
+électromotice E<sub>0</sub> = 5 V, sous la forme d'un
+échelon&nbsp; `E=E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La résistance
+de la charge placée à l'extrémité de la
+ligne est égale à R<sub>L</sub> = 330 Ω.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On calcule :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`tau=L/c`, soit τ = 50 ns.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+A = 0,6 ,&nbsp; Γ(0) = - 0,2 , Γ(L) = 0,6296 .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Le tableau donne :<br>
+<img style="width: 1335px; height: 271px;" alt="Tableau premier exemple..." src="../images/TELEGR_08.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La simulation graphique donne :<br>
+<img style="width: 1550px; height: 589px;" alt="Simulation graphique premierexemple..." src="../images/TELEGR_09.jpeg"><span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span>
+Simulation réalisée avec <span style="font-weight: bold;">PSpice
+Student Version release
+9.1</span><sub style="font-weight: bold;">®</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Les résultats sont identiques.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au final le potentiel
+tant en entrée qu'en sortie doit être égal
+à&nbsp; `V_(+oo)=R_L/(R_L+R_G) E_0`, suivant la loi du diviseur
+de
+tension.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Soit :&nbsp; `V_(+oo)=`4,34 V.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On observe bien que V<sub>E</sub> et V<sub>S</sub> tendent bien vers
+cette limite.</p>
+
+<h4>3.6.3. Deuxième exemple.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On utilise une
+ligne
+de résistance caractéristique R<sub>C</sub> = 50 Ω,
+de longueur
+L = 10 m, la célérité des ondes
+électromagnétiques est égale à c = 2.10<sup>8</sup>
+m.s<sup>-</sup>1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La résistance
+interne du générateur de tension est égale
+à R<sub>G</sub> = 50 Ω, il délivre une force
+électromotice E<sub>0</sub> = 5 V, sous la forme d'un
+échelon&nbsp; `E=E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La résistance
+de la charge placée à l'extrémité de la
+ligne est égale à R<sub>L</sub>&nbsp; et&nbsp;
+`R_L-&gt;+oo` (la ligne est ouverte !).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On calcule :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`tau=L/c`, soit τ = 50 ns.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
+A = 0,5 ,&nbsp; Γ(0) =&nbsp; 0 , Γ(L) = 1,0 .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Il y a
+adaptation "<span style="font-style: italic;">d'impédance</span>"
+entre la ligne et le
+générateur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Le tableau donne :<br>
+<img style="width: 655px; height: 182px;" alt="Tableau deuxième exemple..." src="../images/TELEGR_10.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La simulation graphique donne :<br>
+<img style="width: 1550px; height: 589px;" alt="Simulation graphique deuxième exemple..." src="../images/TELEGR_11.jpeg"><span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span>
+Simulation réalisée avec <span style="font-weight: bold;">PSpice
+Student Version release
+9.1</span><sub style="font-weight: bold;">®.</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Les résultats sont identiques.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au final le potentiel
+tant en entrée qu'en sortie doit être égal
+à&nbsp; `V_(+oo)=E_0`, soit :&nbsp; `V_(+oo)=`5,0 V.</p>
+
+<h4>3.6.4. Troisième exemple.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• On utilise une
+ligne
+de résistance caractéristique R<sub>C</sub> = 50 Ω,
+de longueur
+L = 10 m, la célérité des ondes
+électromagnétiques est égale à c = 2.10<sup>8</sup>
+m.s<sup>-</sup>1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La résistance
+interne du générateur de tension est égale
+à R<sub>G</sub> = 50 Ω, il délivre une force
+électromotice E<sub>0</sub> = 5 V, sous la forme d'un
+échelon&nbsp; `E=E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La résistance
+de la charge placée à l'extrémité de la
+ligne est égale à R<sub>L</sub>, et&nbsp; R<sub>L</sub>&nbsp;
+= 0 (la ligne est en court-circuit !) .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On calcule :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`tau=L/c`, soit τ = 50 ns.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;
+A = 0,5 ,&nbsp; Γ(0) =&nbsp; 0 , Γ(L) = -1,0 .<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Il y a
+adaptation "<span style="font-style: italic;">d'impédance</span>"
+entre la ligne et le
+générateur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Le tableau donne :<br>
+<img style="width: 655px; height: 181px;" alt="Tableau troisième exemple..." src="../images/TELEGR_12.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La simulation graphique donne :<br>
+<img style="width: 1550px; height: 589px;" alt="Simulation graphique troisième exemple..." src="../images/TELEGR_13.jpeg"><span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span>
+Simulation réalisée avec <span style="font-weight: bold;">PSpice
+Student Version release
+9.1</span><sub style="font-weight: bold;">®.</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Les résultats sont identiques.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au final le potentiel
+tant en entrée qu'en sortie doit être égal
+à&nbsp; `V_(+oo)=0` V, le court-circuit est ramené
+à
+l'entrée de la ligne...<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> Ici la
+mesure
+de la duré <span style="font-weight: bold;">T</span><sub style="font-weight: bold;">C</sub> du "<span style="font-style: italic;">créneau</span>" de potentiel
+à
+l'entrée de la ligne permet, si l'on connaît la
+célérité <span style="font-weight: bold;">c</span>
+des ondes
+électromagnétiques sur la ligne, de déterminer
+la
+longueur <span style="font-weight: bold;">L</span> de cette même
+ligne, par la relation
+:&nbsp; `L=(cT_C)/2`.</p>
+
+<h2>4. Étude d'un quatrième exemple où <span style="font-weight: bold;">la
+charge est "<span style="font-style: italic;">complexe</span></span>"...</h2>
+
+<h3>4.1. Le montage proposé, et ses propriétés.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On
+considère
+un câble coaxial de résistance caractéristique <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">C</sub>,
+tel que la célérité des ondes de potentiel et de
+courant soit égale à <span style="font-weight: bold;">c</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne a une
+longueur <span style="font-weight: bold;">L</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La ligne est
+alimentée par un générateur de tension qui
+délivre un échelon de tension (force
+électromotrice)&nbsp; `E = E_0.U(t)`, où&nbsp; `U(t)` est
+l'échelon unitaire, le générateur a une
+résistance interne <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">G</sub>.<br>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • À&nbsp; son
+extrémité (en z = L), la ligne alimente une
+charge "<span style="font-style: italic;">complexe</span>"
+constituée par la mise en parallèle d'une
+résistance <span style="font-weight: bold;">R</span><sub style="font-weight: bold;">L</sub>, et d'une capacité <span style="font-weight: bold;">C</span><sub style="font-weight: bold;">L</sub>.<br>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On rappelle que : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`U(t) = 0` si t &lt; 0.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`U(t) = 1` si 0 ≤ t.<br>
+<img style="width: 634px; height: 211px;" alt="Ligne sur charge &quot;complexe&quot;..." src="../images/TELEGR_14.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• On utilise une
+ligne
+de résistance caractéristique R<sub>C</sub> = 50 Ω,
+de longueur
+L = 10 m, la célérité des ondes
+électromagnétiques est égale à c = 2.10<sup>8</sup>
+m.s<sup>-</sup>1.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La résistance
+interne du générateur de tension est égale
+à R<sub>G</sub> = 50 Ω, il délivre une force
+électromotice E<sub>0</sub> = 5 V, sous la forme d'un
+échelon&nbsp; `E=E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• La charge "<span style="font-style: italic;">complexe</span>" et
+constituée d'une résistance R<sub>L</sub> telle que R<sub>L</sub>&nbsp;
+= 82 Ω, en parallèle avec un condensateur C<sub>L</sub> de
+capacité égale à C<sub>L</sub> = 1,8 nF.<span style="font-weight: bold;"><span style="text-decoration: underline;"><br>
+</span></span><span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span>
+:</span> Il y a
+adaptation "<span style="font-style: italic;">d'impédance</span>"
+entre la ligne et le
+générateur.</p>
+
+<h3>4.2. Étude des ondes progressives de potentiel et de courant.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t &lt; 0, on
+est au repos, le potentiel et&nbsp; le courant sont nuls.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 0 ≤ t,&nbsp;
+les
+ondes progressives de potentiel et de courant s'installent.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On se place à
+l'entrée de la ligne, on cherche l'expression de V<sub>E</sub> =
+V(t,0) et
+de I<sub>E</sub> = I(t,0).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Au début du
+régime transitoire il ne peut y avoir que les ondes progressives
+de tension et de courant issues du générateur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; On peut écrire :&nbsp; `V(t,0) = V^(+)(t,0)`, et&nbsp;
+`I(t,0) = I^(+)(t,0)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Or&nbsp; : `I^(+)(t,0)
+=(V^(+)(t,0))/R_C`, le générateur "<span style="font-style: italic;">voit</span>"
+une charge
+égale à R<sub>C</sub> à ses bornes.<br>
+<img style="width: 333px; height: 202px;" alt="Diviseur de tension..." src="../images/TELEGR_04.jpeg">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • D'aprés la
+loi
+du diviseur de tension, on peut écrire : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V^(+)(t,0)=R_C/(R_G+R_C) E_0 U(t)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Soit :&nbsp; `V^(+)(t,0)=A E_0 U(t)`, avec&nbsp;
+`A=R_C/(R_G+R_C)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp; À
+l'instant t,
+au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z</span>, on a :&nbsp; `V^(+)(t-z/c)=R_C
+I^(+)(t-z/c)`, les
+ondes pogressives de tension et de courant, "<span style="font-style: italic;">voient</span>" la
+résistance caractéristique R<sub>C</sub> de la ligne.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut alors
+écrire :&nbsp; `V^(+)(t-z/c)=A E_0 U(t-z/c)`, et&nbsp;
+`I^(+)(t-z/c)=(A E_0)/R_C U(t-z/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Ici :&nbsp; `R_G=R_C
+rArr A=` 0,5.</p>
+
+<h3>4.3. Réflexion des ondes progressives de potentiel et de
+courant à l'extrémité de la ligne, naissance des
+ondes rétrogrades de tension et de courant.</h3>
+
+<h4>4.3.1. Évolution temporelle du potentiel à
+l'extrémité de la ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Après une
+durée&nbsp; `tau=L/c`, les ondes progressives de potentiel et de
+courant atteignent l'extrémité de la ligne de longueur L,
+ligne qui est connectée à la charge "<span style="font-style: italic;">complexe</span>".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • À
+l'extrémité de la ligne vont alors apparaître des
+ondes rétrogrades de potentiel et de courant, ces
+ondes vont se <span style="font-style: italic;">superposer</span> aux
+ondes progressives.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On peut alors
+écrire <span style="font-style: italic;">à chaque instant</span>,
+en <span style="font-weight: bold;">z</span> = <span style="font-weight: bold;">L</span> :&nbsp;
+`V(t,L)=V^(+)(t-L/c)+V^(-)(t+L/c)`, et&nbsp;
+`I(t,L)=I^(+)(t-L/c)+I^(-)(t+L/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Avec :&nbsp; `I^(+)(t-L/c)=(V^(+)(t-L/c))/R_C`, et&nbsp;&nbsp;
+`I^(-)(t+L/c)=-(V^(-)(t+L/c))/R_C`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Et :&nbsp; `V^(+)(t-L/c)=A E_0 U(t-L/c)`, avec τ ≤ t
+`rArr V^(+)(t-L/c)=A E_0`, <span style="color: red;">alors</span>&nbsp;
+`color (red)(V^(+)(t-L/c))` <span style="color: red;">est constant</span>
+!<br>
+<img style="width: 327px; height: 200px;" alt="La charge &quot;complexe&quot;..." src="../images/TELEGR_15.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Suivant la loi des branches on peut écrire : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V_S = V(t,L)`, soit&nbsp; `V(t,L)=V^(+)(t-L/c) + V^(-)(t+L/c)`.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Suivant la loi des
+noeuds on peut écrire : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`I(t,L) = I_(R_(L)) (t)+ I_(R_(L))(t)`, soit&nbsp; `1/R_C (V^(+)(t-L/c)
+- V^(-)(t+L/c))=I_(R_(L))(t) + I_(R_(L))(t)`.<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Conséquences :
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- D'après la loi de <span style="font-weight: bold;">OHM</span>
+:&nbsp; `I_(R_L)(t)=1/R_L(V^(+)(t-L/c) + V^(-)(t+L/c))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Courant de charge du condensateur :&nbsp;
+`I_(C_L)(t)=C_L(d(V^(+)(t-L/c) + V^(-)(t+L/c)))/(dt)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Soit :&nbsp; `I_(C_L)(t)=C_L(d(V^(+)(t-L/c)))/(dt)+
+C_L(d(V^(-)(t+L/c)))/(dt)`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Or : τ ≤ t, alors :&nbsp; `V^(+)(t-L/c)` est constant `rArr
+I_(C_L)(t)=C_L(d(V^(-)(t+L/c)))/(dt)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- La loi des noeuds nous conduit à écrire : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `1/R_C (V^(+)(t-L/c) - V^(-)(t+L/c))=1/R_L(V^(+)(t-L/c) +
+V^(-)(t+L/c))+C_L(d(V^(-)(t+L/c)))/(dt)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Il vient :&nbsp; `(R_L R_C C_L)/(R_L+R_C)
+(d(V^(-)(t+L/c)))/(dt)+V^(-)(t+L/c)=(R_L-R_C)/(R_L+R_C)V^(+)(t-L/c)`.<br>
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-&nbsp; Pour : τ ≤ t,&nbsp; `V^(+)(t-L/c)=A E_0`, il vient :&nbsp;
+`color (navy)(tau_L (d(V^(-)(t+L/c)))/(dt)+V^(-)(t+L/c)=AE_0Gamma(L))`.
+&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Où :&nbsp; `A=R_C/(R_G+R_C)`,&nbsp;
+`Gamma(L)=(R_L-R_C)/(R_L+R_C)`,&nbsp; `tau_L=(R_L R_C C_L)/(R_L+R_C)`.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`tau_L` désigne la constante de temps de charge du condensateur
+de capacité C<sub>L</sub>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<h4>4.3.2. Intégrons l'équation différentielle.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Cherchons la
+solution
+générale :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Cela revient à résoudre l'équation sans second
+membre, soit :&nbsp; `tau_L (d(V^(-)(t+L/c)))/(dt)+V^(-)(t+L/c)=0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp;&nbsp; `V^(-)(t+L/c)=C_0 e^((t-tau)/tau_L)`, ou C<sub>0</sub>
+est une constante (la date origine doit être prise à (t -
+τ))...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Cherchons une
+solution particulière :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Lorsque le régime transitoire est terminé, on doit
+verifier :&nbsp; `V^(-)(t+L/c)=AE_0Gamma(L)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • La solution
+complète est donnée par :&nbsp; `V^(-)(t+L/c)=C_0
+e^((t-tau)/tau_L)+AE_0Gamma(L)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Condition initiale :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- À t = τ,&nbsp; `V^(+)(tau-L/c)+V^(-)(tau+L/c)=0` (le
+condensateur n'est pas
+chargé), il vient : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `V^(-)(tau+L/c)=-V^(+)(tau-L/c)`, soit&nbsp;&nbsp;
+`V^(-)(tau+L/c)=-AE_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On doit résoudre :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `C_0+AE_0Gamma(L)=-AE_0 rArr C_0=-AE_0(1+Gamma(L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Il vient enfin
+:&nbsp; `color
+(navy)(V^(-)(t+L/c)=AE_0(Gamma(L)-(1+Gamma(L))e^(-(t-tau)/tau_L)))`.</p>
+
+<h4>4.3.3. Expression du potentiel à l'extémité de
+la ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •&nbsp;
+`V(t,L)=V^(+)(t-L/c) + V^(-)(t+L/c)`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Avec pour τ ≤ t :&nbsp; `V^(+)(t-L/c)=AE_0`, et&nbsp;
+`V^(-)(t+L/c)=AE_0(Gamma(L)-(1+Gamma(L))e^(-(t-tau)/tau_L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- <span style="color: navy;">Il vient pour τ ≤ t</span> :&nbsp;
+`color (navy)(V(t,L)=AE_0(1+Gamma(L))(1-e^(-(t-tau)/tau_L)))`.</p>
+
+<h4>4.3.4. Expression de l'onde de potentiel rétrograde.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • On cherche
+l'expression de&nbsp; `V^(-)(t+z/c)` :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z</span>, on peut écrire :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp; `V^(+)(t-z/c)=A E_0 U(t-z/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Au point <span style="font-weight: bold;">M</span> de cote <span style="font-weight: bold;">z = L</span>, on peut écrire :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+•&nbsp;
+`V^(-)(t+L/c)=AE_0(Gamma(L)-(1+Gamma(L))e^(-(t-tau)/tau_L)) U(t-tau)`.<br>
+&nbsp;<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> À
+partir de la date origine (t - τ) avec τ ≤ t , l'onde de
+potentiel rétrograde se propage du point de cote z = L au point
+de cote z, en parcourant la distance (L - z) avec la
+célérité c.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- On en déduit :&nbsp;
+`V^(-)(t+z/c)=AE_0(Gamma(L)-(1+Gamma(L))e^(-(t-tau-(L-z)/c)/tau_L))
+U(t-tau-(L-z)/c)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+• Soit :&nbsp;
+`V^(-)(t+z/c)=AE_0(Gamma(L)-(1+Gamma(L))e^(-(t+z/c-2tau)/tau_L))
+U(t+z/c-2tau)`.<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> On a bien
+affaire
+à une onde rétrograde car dans l'expression de&nbsp;
+`V^(-)(t+z/c)` apparaît justement le terme&nbsp; `color
+(red)(t+z/c)`...<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient également :&nbsp; `color(red)(V(t,z)=A E_0 U(t-z/c) +
+AE_0(Gamma(L)-(1+Gamma(L))e^(-(t+z/c-2tau)/tau_L)) U(t+z/c-2tau))`.</p>
+
+<h3>4.4. Étude de l'onde de potentiel en des points
+particuliers de la ligne.</h3>
+
+<h4>4.4.1. Onde de potentiel à l'extrémité de la
+ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Alors <span style="font-weight: bold;">z = L</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(t,L)=AE_0(1+Gamma(L))(1-e^(-(t-tau)/tau_L))
+U(t-tau)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 0 ≤ t &lt;
+τ :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(t,L)=0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t = τ :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(tau,L)=0`, le condensateur agit comme un véritable
+court-circuit car il n'est pas chargé !<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour τ &lt; t :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(t,L)=AE_0(1+Gamma(L))(1-e^(-(t-tau)/tau_L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Le potentiel V(t,L) croît de manière exponentielle avec
+la constante de temps τ<sub>L</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t&nbsp; →
++∞ :&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(+oo,L)=AE_0(1+Gamma(L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(+oo,L)=R_C/(R_C+R_G)(1+(R_L-R_C)/(R_L+R_C)) E_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(+oo,L)=(2R_C R_L)/((R_C+R_G)(R_L+R_C)) E_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Or `R_C=R_G rArr V(+oo,L)=R_L/(R_L+R_G) E_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Au final le potentiel en sortie doit être égal
+à :&nbsp; `V_(+oo)=R_L/(R_L+R_G) E_0`, suivant la loi du
+diviseur
+de
+tension.</p>
+
+<h4>4.4.2. Onde de potentiel à l'entrée de la ligne.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Alors <span style="font-weight: bold;">z = 0</span>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Il vient :&nbsp; `V(t,0)=A E_0 U(t) +
+AE_0(Gamma(L)-(1+Gamma(L))e^(-(t-2tau)/tau_L)) U(t-2tau)`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 0 ≤ t
+&lt; 2τ :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(t,0)=A E_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t = 2τ :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(2tau,0)=A E_0 +
+AE_0(Gamma(L)-(1+Gamma(L)) rArr V(2tau,0)=0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour 2τ &lt; t :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(t,0)=A E_0 (1+Gamma(L)) (1-e^(-(t-2tau)/tau_L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Le potentiel V(t,0) croît de manière exponentielle avec
+la constante de temps τ<sub>L</sub>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Pour t&nbsp; →
++∞ :&nbsp; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(+oo,0)=AE_0(1+Gamma(L))`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+`V(+oo,0)=R_L/(R_L+R_G) E_0`.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- Au final le potentiel en entrée doit être égal
+à :&nbsp; `V_(+oo)=R_L/(R_L+R_G) E_0`, suivant la loi du
+diviseur
+de tension.</p>
+
+<h4>4.4.3. Application numérique :</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`tau_L=(R_L R_C C_L)/(R_L+R_C)`, τ<sub>L</sub> ≈ 56 ns.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Calculons :&nbsp;
+`V_(+oo)=R_L/(R_L+R_G) E_0`, V<sub>+∞</sub> = 3,10 V.</p>
+
+<h4>4.4.4. Simulation graphique.</h4>
+
+<p><img style="width: 1550px; height: 589px;" alt="Simulation graphique charge &quot;complexe&quot;..." src="../images/TELEGR_16.jpeg"><span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span>
+Simulation réalisée avec <span style="font-weight: bold;">PSpice
+Student Version release
+9.1</span><sub style="font-weight: bold;">®.</sub><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Les
+prévisions
+théoriques et la simulation graphique concordent.</p>
+
+<h4>4.4.5. Animation graphique.</h4>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Regarder
+l'<a style="font-style: italic;" href="./telegr01.html" target="_blank">animation</a>
+relative à l'évolution de l'onde de potentiel sur
+la ligne, dans le
+temps et dans l'espace...</p>
+
+<h2>5. Intérêt pratique et remerciements.</h2>
+
+<h3>5.1. Intérêt pratique.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+Lors de l'étude des équations aux dérivées
+partielles du second ordre, nous avions dit que les
+problèmes rencontrés en physique et répondant
+à de telles équations, demandent la recherche
+de solutions satisfaisant à des conditions particulières,
+comme les conditions initiales, les conditions aux limites, ces
+conditions
+permettent alors de préciser de manière plus "<span style="font-style: italic;">fine</span>"
+l'expression de la solution.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •
+L'étude de l'équation des télégraphistes
+nous a permis d'illustrer pleinement comment mener la recherche de ces
+mêmes solutions à partir de quelques exemples, et de
+faire,une fois encore, "<span style="font-style: italic;">un peu de belle physique</span>"...</p>
+
+<h3>5.2. Remerciements.</h3>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Cette page
+n'aurait pas pu être composée sans les "outils" fournis
+par <span style="font-weight: bold;">AsciiMath</span>, à l'URL
+: <a style="text-decoration: none;" href="http://asciimath.org/" target="_blank">&lt;http://asciimath.org/&gt;</a>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Cette page a pu
+être développée et affichée correctement
+grâce à l'utilisation du réseau de distribution de
+contenu <span style="font-weight: bold;">MathJax (CDN)</span>. Toute
+la documentation relative à <span style="font-weight: bold;">MathJax</span>
+est accessible à l'URL :
+<a style="text-decoration: none;" href="http://docs.mathjax.org/en/latest/index.html" target="_blank">&lt;http://docs.mathjax.org/en/latest/index.html&gt;</a>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • Les graphes ont
+été tracés à l'aide du logiciel <span style="font-weight: bold;">PSpice
+Student Version release
+9.1</span><sub style="font-weight: bold;">®.</sub> La
+documentation relative à <span style="font-weight: bold;">PSpice
+</span><span style="font-weight: bold;">Student </span>est
+accessible à l'URL : <a style="text-decoration: none;" href="https://www.orcad.com/academic-program" target="_blank">&lt;https://www.orcad.com/academic-program&gt;</a>.
+<br>
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Remarque</span> :</span> La
+version <span style="font-weight: bold;">PSpice
+Student Version release
+9.1<sub>®</sub></span> est ancienne, on peut la
+télécharger à l'URL : <span style="font-weight: bold;"></span>&nbsp; <a style="text-decoration: none;" href="http://www.electronics-lab.com/downloads/circutedesignsimulation/?page=5" target="_blank">&lt;http://www.electronics-lab.com/downloads/circutedesignsimulation/?page=5&gt;</a>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; • L'animation a
+été réalisée à l'aide du logiciel
+<span style="font-weight: bold;">gnuplot</span><sub style="font-weight: bold;">®</sub>, dont la documentation est
+accessible à l'URL :
+<a style="text-decoration: none;" href="http://www.gnuplot.info/" target="_blank">&lt;http://www.gnuplot.info/&gt;</a>
+<br>
+<big style="font-weight: bold;"><span style="color: red;">Retour à</span><a style="font-style: italic;" href="../index.html" target="_blank"> la
+page principale</a>...</big></p>
+
+<hr>
+<h5 style="text-align: center;">Copyright<sub>©</sub> 2016-2017
+[ <a style="text-decoration: none;" href="mailto:dominique.richier@free.fr">DR</a> ] Tous droits
+réservés.</h5>
+
+</body></html>
