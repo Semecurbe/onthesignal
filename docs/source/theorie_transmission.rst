@@ -1,5 +1,6 @@
 Etude des lignes de propagation
-+++++++++++++++++++++++++++++++
+===============================
+
 
 Théorie de l'équation des télégraphistes
 ========================================

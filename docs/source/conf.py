@@ -80,8 +80,6 @@ html_theme_options = {
   "footer_end": "",
       "navbar_end": ["navbar-icon-links"],
       "article_header_start": ""
-
-
 }
 
 
