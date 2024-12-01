@@ -12,6 +12,10 @@ body {
   font-size: medium;
 }
 
+.rst-other-versions {
+  display: none; /* Masque le menu des versions */
+}
+
 .wy-breadcrumbs, .sphinx-breadcrumbs {
   display: none; /* Cache les breadcrumbs */
 }

@@ -88,3 +88,4 @@ html_context = {
    # ...
    "default_mode": "light"
 }
+
