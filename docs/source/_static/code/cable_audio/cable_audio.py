@@ -35,22 +35,48 @@ att_10m = np.abs(np.exp(-gamma*10))
 att_100m = np.abs(np.exp(-gamma*100))
 att_1000m = np.abs(np.exp(-gamma*1000))
 
+ph_1m = np.angle(np.exp(-gamma*1))
+ph_10m = np.angle(np.exp(-gamma*10))
+ph_100m = np.angle(np.exp(-gamma*100))
+ph_1000m = np.angle(np.exp(-gamma*1000))
+
+gd_1m = -np.gradient(ph_1m, omega)
+gd_10m = -np.gradient(ph_10m, omega)
+gd_100m = -np.gradient(ph_100m, omega)
+gd_1000m = -np.gradient(ph_1000m, omega)
+
+
 
 # Tracé de l'atténuation en fonction de la fréquence
-plt.figure(figsize=(10, 6))
-plt.plot(frequences, att_1m, label="1 m", linewidth=3)
-plt.plot(frequences, att_10m, label="10 m", linewidth=3)
-plt.plot(frequences, att_100m, label="100 m", linewidth=3)
+# axs.figure(figsize=(10, 6)
+fig, axs = plt.subplots(2, 1, layout='constrained')
+
+
+axs[0].plot(frequences, att_1m, label="1 m", linewidth=3)
+axs[0].plot(frequences, att_10m, label="10 m", linewidth=3)
+axs[0].plot(frequences, att_100m, label="100 m", linewidth=3)
 #plt.plot(frequences, att_1000m, label="1000 m")
 
+axs[1].plot(frequences, gd_1m*1e6, label="1 m", linewidth=3)
+axs[1].plot(frequences, gd_10m*1e6, label="10 m", linewidth=3)
+axs[1].plot(frequences, gd_100m*1e6, label="100 m", linewidth=3)
 
-plt.xscale('log')  # Échelle logarithmique pour l'axe des fréquences
+axs[0].set_xscale('log')  # Échelle logarithmique pour l'axe des fréquences
 #plt.yscale('log')  # Échelle logarithmique pour l'axe des atténuations
-plt.xlabel('Fréquence (Hz)')
-plt.ylabel('Atténuation')
+axs[0].set_xlabel('Fréquence (Hz)')
+axs[0].set_ylabel('Atténuation')
 #plt.title('Fonction de transfert  câble bifilaire non torsadé ave')
-plt.grid(True, which="both", linestyle='--', linewidth=0.5)
-plt.legend(frameon=False)
-plt.tight_layout()
+axs[0].grid(True, which="both", linestyle='--', linewidth=0.5)
+axs[0].legend(frameon=False)
+#axs[0].tight_layout()
+
+axs[1].set_xscale('log')  # Échelle logarithmique pour l'axe des fréquences
+#plt.yscale('log')  # Échelle logarithmique pour l'axe des atténuations
+axs[1].set_xlabel('Fréquence (Hz)')
+axs[1].set_ylabel('Temps de groupe (μs)')
+#plt.title('Fonction de transfert  câble bifilaire non torsadé ave')
+axs[1].grid(True, which="both", linestyle='--', linewidth=0.5)
+axs[1].legend(frameon=False)
+
 
 plt.show()
