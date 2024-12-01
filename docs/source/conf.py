@@ -20,6 +20,7 @@
 project = 'Onthesignal'
 copyright = '2024, onthesignal'
 author = 'onthesignal'
+html_title = "Onthesignal"
 
 
 # -- General configuration ---------------------------------------------------
@@ -61,4 +62,8 @@ html_static_path = ['_static']
 html_sidebars = {
   "**": []
 }
-
+html_theme_options = {
+    "secondary_sidebar_items": {
+        "**": [],
+    },
+}
