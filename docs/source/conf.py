@@ -77,7 +77,16 @@ html_theme_options = {
     },
   "show_prev_next": False,
     "footer_start": "",
-  "footer_end": ""
+  "footer_end": "",
+      "navbar_end": ["navbar-icon-links"],
+      "article_header_start": ""
+
 
 }
 
+
+
+html_context = {
+   # ...
+   "default_mode": "light"
+}

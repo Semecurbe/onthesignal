@@ -12,6 +12,11 @@ body {
   font-size: medium;
 }
 
+.wy-breadcrumbs, .sphinx-breadcrumbs {
+  display: none; /* Cache les breadcrumbs */
+}
+
+
 /* Making sure the navbar shows correctly in one line
    Reduces the space between the top-left logo and the navbar section titles 
 
