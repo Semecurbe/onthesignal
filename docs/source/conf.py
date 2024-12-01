@@ -62,8 +62,16 @@ html_static_path = ['_static']
 html_sidebars = {
   "**": []
 }
+
+
+
 html_theme_options = {
-    "secondary_sidebar_items": {
+    "logo": {
+        "text": "Onthesignal",
+        "image_light": "_static/pic/Logo_OTS.svg",
+        "image_dark": "_static/pic/Logo_OTS.svg",
+    },
+        "secondary_sidebar_items": {
         "**": [],
     },
 }
