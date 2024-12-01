@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Onthesignal'
-copyright = '2024, onthesignal'
+copyright = ''
 author = 'onthesignal'
 html_title = "Onthesignal"
 
@@ -63,7 +63,7 @@ html_sidebars = {
   "**": []
 }
 
-
+html_favicon = "_static/pic/favicon.png"
 
 html_theme_options = {
     "logo": {
@@ -74,4 +74,6 @@ html_theme_options = {
         "secondary_sidebar_items": {
         "**": [],
     },
+
 }
+

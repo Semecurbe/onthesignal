@@ -6,8 +6,6 @@
 Onthesignal
 ===========
 
-Test pierre
-
 .. toctree::
    :maxdepth: 2
    :caption: Sommaire:
