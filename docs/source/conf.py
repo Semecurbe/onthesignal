@@ -28,8 +28,9 @@ html_title = "Onthesignal"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ["sphinx_design"]
+html_css_files = ["onthesignal.css"]
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -74,6 +75,9 @@ html_theme_options = {
         "secondary_sidebar_items": {
         "**": [],
     },
+  "show_prev_next": False,
+    "footer_start": "",
+  "footer_end": ""
 
 }
 
