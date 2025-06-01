@@ -1,0 +1,116 @@
+
+## Relation entre la bande passante et le temps de montée 
+
+La formule suivante décrit la relation entre le temps de montée et la bande passante :
+
+$$t_r \approx \frac{0,35}{f_c}$$
+
+Cette relation est vraie pour un système passe-bas du premier ordre, cependant elle permet d'obtenir une estimation du temps de montée en fonction de la bande passante pour un système linéaire passe-bas en général. 
+
+
+### Démonstration dans le cadre d'un système du premier ordre
+
+Pour un système dynamique linéaire du premier ordre passe-bas, l'équation différentielle qui relie sa sortie $s(t)$ à son entrée $e(t)$ est de la forme :
+
+$$\tau \frac{ds(t)}{dt} + s(t) = K e(t)$$
+
+Où :
+
+-   $s(t)$ est la sortie du système en fonction du temps.
+-   $e(t)$ est l'entrée du système en fonction du temps.
+-   $\tau$ est la constante de temps du système (en secondes), qui caractérise la rapidité de la réponse du système.
+-   $K$ est le gain statique du système, qui relie l'amplitude de la sortie à l'amplitude de l'entrée en régime permanent.
+
+En appliquant la transformée de Laplace avec des conditions initiales nulles, on obtient la fonction de transfert $H(p)$ du système :
+
+$$H(p) = \frac{S(p)}{E(p)} = \frac{K}{1 + \tau p}$$
+
+#### Détermination de la bande passante
+
+Pour trouver la réponse en fréquence, on remplace $p$ par $j\omega$, où $ω=2\pi f$ est la pulsation et f est la fréquence :
+
+$$H(j\omega) = \frac{K}{1 +  j\omega\tau}$$
+
+L'amplitude de la réponse en fréquence est :
+
+$$
+\begin{aligned}
+\lvert H(j\omega) \rvert & = \left\lvert \frac{K}{1 + j\omega\tau}\right\rvert \\
+& = \frac{\lvert K \rvert}{\sqrt{1 + \left(\omega\tau \right)^2}} 
+\end{aligned}
+$$
+
+La bande passante $\omega_c$ (ou $2\pi f_c$) est la fréquence à laquelle l'amplitude est réduite d'un facteur de $\sqrt{2}$ (ce qui correspond à une atténuation de 3dB) par rapport à la valeur à basse fréquence :
+
+$$
+\frac{\lvert K \rvert}{\sqrt{1 + \left(\omega\tau \right)^2}} = \frac{\lvert K \rvert}{\sqrt{2}}
+$$
+
+En simplifiant, on obtient :
+
+$$
+\sqrt{1 + \left(\omega\tau \right)^2} = \sqrt{2} $$
+$$1 + \left(\omega\tau \right)^2 = 2
+$$
+$$\left(\omega\tau \right)^2 = 1$$
+
+On prend la solution positive : $\omega\tau = 1$
+
+Pour obtenir la bande passante en Hertz ($f_c$), on divise par $2\pi$ :
+
+$$f_c = \frac{1}{2\pi \tau}$$
+
+#### Détermination du temps de montée
+
+La réponse à un échelon unité est donnée par la relation suivante :
+
+$$s(t)=K\left(1−e^{\frac{−t}{\tau}}\right)$$
+
+Si on considère une réponse normalisée (où $K=1$), on cherche les temps $t_{10\%}$ et $t_{90\%}$ tels que :
+
+$$
+\begin{aligned}
+0,1=1−e^{−\frac{t_{10\%}}{\tau}} \\
+​0,9=1−e^{−\frac{t_{90\%}}{\tau}}
+\end{aligned}
+$$
+​
+Résolvons ces équations pour trouver $t_{10\%}$ et $t_{90\%}$ : 
+
+$$
+e^{−\frac{t_{10\%}}{\tau}} = 1-0,1 \Rightarrow −\frac{t_{10\%}}{\tau} = ln(0,9) \Rightarrow t_{10\%} = - \tau ln(0,9)
+$$
+
+$$
+e^{−\frac{t_{90\%}}{\tau}} = 1-0,9 \Rightarrow	−\frac{t_{90\%}}{\tau} = ln(0,1) \Rightarrow t_{90\%} = - \tau ln(0,1)
+$$
+
+Le temps de montée $t_r$ est alors :
+
+$$
+t_r = t_{90\%}- t_{10\%} = - \tau (ln(0,1) - ln(0,9)) = \tau ln\left(\frac{0,9}{0,1}\right) \approx 2,2 \tau
+$$
+
+Le temps de montée d'un système du premier ordre est égale à $t_r\approx 2,2\tau$.
+
+#### Lien entre la bande passante et le temps de montée
+
+En isolant $\tau$ dans les relations de la bande passante et du temps de montée :
+
+$$
+t_r  \approx 2,2 \tau \Rightarrow \tau \approx \frac{t_r}{2,2}
+$$
+
+$$
+f_c = \frac{1}{2\pi \tau} \Rightarrow \tau = \frac{1}{2\pi f_c}
+$$
+
+En égalisant, les deux équations précédentes, on obtient :
+
+$$
+\frac{t_r}{2,2} \approx \frac{1}{2\pi f_c} \Rightarrow
+t_r \approx \frac{0,35}{f_c} 
+$$
+
+En conclusion, la relation entre la bande passante et le temps de montée pour un système du premier ordre est $t_r = \frac{0,35}{f_c}$.
+

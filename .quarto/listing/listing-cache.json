@@ -1,0 +1,12 @@
+{
+  "listingMap": {
+    "actualite.qmd": [
+      "B3049D40",
+      "reports/*.qmd",
+      "lab-notes/*reports.qmd",
+      "actualite/*.qmd",
+      "news/*.qmd",
+      "news"
+    ]
+  }
+}

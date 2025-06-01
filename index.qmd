@@ -1,0 +1,5 @@
+
+## Technique de numérisation 
+
+[Relation entre la bande passante et le temps de montée](tec/rt_bw.qmd)
+

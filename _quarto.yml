@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Onthesignal"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Numérisation
+      - href: actualite.qmd
+        text: Actualité
+      
+      
+
+format:
+  html:
+    theme:
+      - lux
+      - brand
+    css: styles.css
+    toc: true
+
+lang: fr
+
+

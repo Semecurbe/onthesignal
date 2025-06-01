@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "e472e020"
+  },
+  "about.qmd": {
+    "about.html": "7bbdf344"
+  },
+  "Actualité.qmd": {
+    "Actualité.html": "d6c2ec2a"
+  },
+  "test.qmd": {
+    "test.html": "6f76cdba"
+  },
+  "actualite.qmd": {
+    "actualite.html": "9f9caa8c"
+  },
+  "news/redpitaya_gen2.qmd": {
+    "redpitaya_gen2.html": "d34d3854"
+  },
+  "tec/rt_bw.qmd": {
+    "rt_bw.html": "6715127f"
+  }
+}
