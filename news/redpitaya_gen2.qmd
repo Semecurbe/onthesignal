@@ -1,6 +1,6 @@
 ---
 title: "Redpitaya Gen 2"
-date: 11/03/2025
+date: 03/11/2025
 ---
 ![Photographie de la Redpitaya gen 2](pics/redpitaya_gen2.png)
 La nouvelle Red Pitaya GEN 2 marque une étape importante dans l’évolution des plateformes d'instrumentation open-source. Fidèle à l’esprit de la première génération, cette version repensée offre des performances accrues, une meilleure connectivité, et une plus grande souplesse de développement.

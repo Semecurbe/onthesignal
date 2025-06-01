@@ -15,9 +15,7 @@ website:
 
 format:
   html:
-    theme:
-      - lux
-      - brand
+    theme: default
     css: styles.css
     toc: true
 

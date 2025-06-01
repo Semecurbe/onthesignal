@@ -1,5 +1,7 @@
 
-## Technique de numérisation 
+# Technique de numérisation 
 
-[Relation entre la bande passante et le temps de montée](tec/rt_bw.qmd)
+-   [Processus de quantification](tec/quantification.qmd)
+
+-   [Relation entre la bande passante et le temps de montée](tec/rt_bw.qmd)
 

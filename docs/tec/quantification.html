@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Actualité – Onthesignal</title>
+<title>quantification – Onthesignal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0776edea296a2954aab78e07334ac87d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-0776edea296a2954aab78e07334ac87d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,67 +67,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -139,7 +79,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Onthesignal</span>
     </a>
   </div>
@@ -150,11 +90,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Numérisation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./actualite.html" aria-current="page"> 
+    <a class="nav-link" href="../actualite.html"> 
 <span class="menu-text">Actualité</span></a>
   </li>  
 </ul>
@@ -168,62 +108,55 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#quantification" id="toc-quantification" class="nav-link active" data-scroll-target="#quantification">Quantification</a>
+  <ul class="collapse">
+  <li><a href="#origine" id="toc-origine" class="nav-link" data-scroll-target="#origine">Origine</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Actualité</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
+<section id="quantification" class="level1">
+<h1>Quantification</h1>
+<section id="origine" class="level2">
+<h2 class="anchored" data-anchor-id="origine">Origine</h2>
+<p>Dans la nature, l’évolution des phénomènes physiques correspond à une variation continue de signal analogique. L’humain perçoit à travers son corps ses évolutions. Il ressentira par exemple une baisse de la luminosité avec le passage du jour à la nuit ou une modfication de la température avec le rythme des saisons.</p>
+<p>Cependant, depuis l’Antiquité, l’homme a ressenti le besoin de quantifier ce qu’il observait dans la nature pour mieux comprendre, prévoir et agir. Par exemple, lorsqu’il devait gérer les ressources vitales comme l’eau, il ne suffisait pas de savoir qu’un puits était “plein” ou “presque vide”. Il fallait mesurer avec précision la quantité d’eau disponible, pour savoir si elle suffirait à irriguer les cultures, abreuver les animaux ou traverser une période de sécheresse. Ainsi, on a commencé à utiliser des unités, des repères sur les parois du puits, ou des récipients de taille connue pour transformer une observation continue en valeur mesurable.</p>
+<p>Le nilomètre est un exemple de processus de quantification utilisé dès l’Égypte ancienne, vers 2000 avant J.C. Cet ancien instrument de mesure était utilisé par les Égyptiens pour quantifier la hauteur des crues du Nil. La fonction principale du nilomètre était de mesurer le niveau de l’eau du Nil pendant la montée annuelle du fleuve (crue), afin d’en prévoir les effets sur l’agriculture et organiser l’impôt.</p>
+<p>On observait à quelle hauteur l’eau montait pendant la crue (en été) :</p>
+<ul>
+<li>Si l’eau était trop basse, il y aurait sécheresse. </li>
+<li>Si elle était trop haute, il y aurait inondation destructrice.</li>
+<li>Si elle était juste au bon niveau, les terres seraient fertiles grâce au limon, et la récolte serait bonne.</li>
+</ul>
+<p>Le nilomètre est un exemple ancien et très concret de quantification. Il montre comment les sociétés humaines ont mesuré un phénomène naturel pour le comprendre, s’y adapter et organiser la vie collective.</p>
+<p>Néanmoins, une quantification comme nous le faisons aujourd’hui avec la technologie numérique était inimaginable. Les mécanismes de quantification étaient limités par des outils rudimentaires et la capacité humaine à mesurer ou noter les phénomènes naturels. Ainsi, chaque enregistrement était une photo instantanée d’un événement, mais l’enregistrement global d’un phénomène sur toute sa durée était particulièrement laborieux et lent.</p>
+<p>Il a fallu attendre l’avènement des premiers systèmes d’enregistrement analogique pour pouvoir capturer un signal en continu à l’instar du phonautographe de Scott de Martinville. L’enregistrement analogique permet de conserver des signaux sous forme continue. Toutefois, il est important de noter que la quantification des signaux enregistrés ne se faisait pas au moment de l’enregistrement, mais intervenait dans un second temps au cours du post-traitement.</p>
+<p>A expliquer :</p>
+<p>Dans les premiers oscilloscopes à mémoire qui utilisaient des tubes cathodiques (CRT), la mémoire était souvent basée sur des techniques analogiques pour conserver l’image du signal. Les principales méthodes étaient :</p>
+<p>Mémoire à persistance de phosphore :</p>
+<p>L’oscilloscope à tube cathodique (CRT) utilisait un écran en phosphore qui avait la capacité de garder l’image pendant un certain temps après que le signal ait disparu. Cette mémoire était appelée la persistance de phosphore.</p>
+<p>Le phosphore s’illumine lorsqu’il est frappé par un faisceau électronique, et il peut continuer à émettre de la lumière pendant un certain temps après la fin du balayage du faisceau.</p>
+<p>Cette mémoire était non volatile mais de très courte durée. Elle permettait de visualiser brièvement un signal sans le redessiner instantanément.</p>
+<p>Mémoire à charge électrostatique :</p>
+<p>Certains oscilloscopes analogiques utilisaient des charges électrostatiques pour maintenir l’image sur l’écran CRT. L’écran était chargé électriquement de manière sélective, et les zones de l’écran où la charge restait piégée permettaient de maintenir l’image pendant une certaine période.</p>
+<p>Ces systèmes étaient plus complexes et nécessitaient un contrôle précis de la charge pour garantir que l’image reste visible pendant le temps souhaité.</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1741647600000" data-listing-file-modified-sort="1748797520395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
-<div class="thumbnail"><a href="./news/redpitaya_gen2.html" class="no-external">
+</section>
+</section>
 
-<p class="card-img-top"><img src="news/pics/redpitaya_gen2.png" alt="Photographie de la Redpitaya gen 2"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./news/redpitaya_gen2.html" class="no-external">Redpitaya Gen 2</a>
-</h3>
-<div class="delink listing-description"><a href="./news/redpitaya_gen2.html" class="no-external">
- La nouvelle Red Pitaya GEN 2 marque une étape importante dans l’évolution des plateformes d’instrumentation open-source. Fidèle à l’esprit de la première génération, cette…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./news/redpitaya_gen2.html" class="no-external">
-<div class="listing-date">
-11 mars 2025
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">Aucun article correspondant</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
