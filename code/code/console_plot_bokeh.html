@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Console Python avec Bokeh (Finalisé)</title>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js"></script>
+    <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.4.1.min.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 20px; background-color: #f8f9fa; }
+        h1, h2 { color: #343a40; }
+        #container { display: flex; gap: 20px; }
+        #left-panel { flex: 1; }
+        #right-panel { flex: 1; border-left: 1px solid #dee2e6; padding-left: 20px; }
+        textarea { width: 98%; height: 200px; font-family: monospace; font-size: 14px; border: 1px solid #ced4da; border-radius: 4px; padding: 10px; }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; font-size: 16px; margin-top: 10px; }
+        button:hover { background-color: #0056b3; }
+        #output-area { background-color: #e9ecef; border-radius: 4px; padding: 10px; min-height: 50px; white-space: pre-wrap; font-family: monospace; }
+        #plot-area { border: 1px solid #dee2e6; border-radius: 4px; margin-top: 10px; min-height: 300px; }
+        #status { color: #6c757d; }
+    </style>
+</head>
+<body>
+    <h1>🐍 Console Python avec NumPy & Bokeh</h1>
+    <p id="status">Chargement de Pyodide...</p>
+
+    <div id="container">
+        <div id="left-panel">
+            <h2>Code</h2>
+            <textarea id="code-input">
+# Import des bibliothèques
+import numpy as np
+from bokeh.plotting import figure
+
+# Création des données
+x = np.linspace(0, 2 * np.pi, 400)
+y = np.sin(x ** 2)
+
+# Création du graphique Bokeh
+# NOTE: Le graphique doit être dans une variable nommée `p`
+p = figure(
+    title="Graphique Bokeh interactif",
+    height=350,
+    sizing_mode="stretch_width"
+)
+p.line(x, y, legend_label="sin(x^2)", line_width=2)
+
+# La variable 'p' est automatiquement détectée
+            </textarea>
+            <button id="execute-button" disabled>Exécuter</button>
+            <h2>Sortie Texte / Erreurs</h2>
+            <pre id="output-area"></pre>
+        </div>
+        <div id="right-panel">
+            <h2>Graphique Interactif</h2>
+            <div id="plot-area"></div>
+        </div>
+    </div>
+
+<script>
+async function main() {
+    const status = document.getElementById('status');
+    const codeInput = document.getElementById('code-input');
+    const executeButton = document.getElementById('execute-button');
+    const outputArea = document.getElementById('output-area');
+    const plotArea = document.getElementById('plot-area');
+
+    status.textContent = 'Installation de NumPy, Pandas et Bokeh...';
+    let pyodide = await loadPyodide();
+    await pyodide.loadPackage(['numpy', 'pandas', 'bokeh']);
+    
+    status.textContent = 'Prêt ! Vous pouvez exécuter votre code.';
+    executeButton.disabled = false;
+
+    // Le script Python qui exécutera le code utilisateur de manière sécurisée
+    const pythonExecutor = `
+import json
+from bokeh.embed import json_item
+from bokeh.models import Model
+import io
+import sys
+
+# La variable 'user_code' est définie par \`pyodide.globals.set\`
+# C'est ici que le code de l'utilisateur est récupéré.
+
+# Redirige stdout pour capturer les \`print\` et les erreurs
+stdout_capture = io.StringIO()
+sys.stdout = stdout_capture
+sys.stderr = stdout_capture # Capture les erreurs dans le même flux
+
+plot_json = None
+# Crée un dictionnaire pour servir de portée (scope) locale au code exécuté
+scope = {}
+
+try:
+    # Exécute le code de l'utilisateur dans une portée contrôlée
+    exec(user_code, globals(), scope)
+
+    # Cherche le graphique 'p' dans la portée où le code a été exécuté
+    if 'p' in scope and isinstance(scope['p'], Model):
+        plot_json = json.dumps(json_item(scope['p'], "plot-area"))
+
+except Exception as e:
+    # Affiche l'erreur en cas de problème
+    print(e)
+finally:
+    # Réinitialise stdout quoi qu'il arrive
+    sys.stdout = sys.__stdout__
+
+# Retourne un objet JSON avec les résultats
+json.dumps({
+    "stdout": stdout_capture.getvalue(),
+    "plot_json": plot_json
+})
+    `; // <-- Point-virgule ajouté ici
+
+    executeButton.addEventListener('click', async () => {
+        outputArea.textContent = '';
+        plotArea.innerHTML = ''; 
+        
+        try {
+            // Rend le code de l'utilisateur disponible pour le script Python
+            pyodide.globals.set('user_code', codeInput.value);
+            
+            // Exécute notre script "wrapper"
+            const results = await pyodide.runPythonAsync(pythonExecutor);
+            const { stdout, plot_json } = JSON.parse(results);
+
+            if (stdout) {
+                outputArea.textContent = stdout;
+            }
+
+            if (plot_json) {
+                const plotData = JSON.parse(plot_json);
+                Bokeh.embed.embed_item(plotData);
+            } else if (!stdout) {
+                outputArea.textContent = "Code exécuté avec succès (pas de sortie texte ni de graphique).";
+            }
+
+        } catch (error) {
+            outputArea.textContent = error.toString();
+        }
+    });
+}
+
+main();
+</script>
+
+</body>
+</html>
