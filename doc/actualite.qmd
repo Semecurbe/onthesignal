@@ -1,9 +1,0 @@
----
-title: "Actualité"
-type: default
-listing:
-  contents: news
-sort:
-  - "date"
-  - "title desc"  
----
