@@ -1,0 +1,28 @@
+---
+title: "Tektronix Announces 7 Series DPO Oscilloscope, Setting New Performance Benchmark"
+subtitle: Tektronix
+description: |
+ Tektronix has launched its new 7 Series DPO oscilloscope, a next-generation, ultra-high-performance instrument designed for engineers and researchers in demanding fields like high-speed communications, AI, quantum computing, and high-energy physics.
+categories:
+  - Tektronix
+image: images/hp.svg
+image-alt: logo HP
+toc: false
+date: 16/09/2025
+---
+
+
+Powered by two new proprietary ASICs (Tek079 and Tek085), the oscilloscope provides the industry's lowest noise and highest Effective Number of Bits (ENOB). The series debuts with a bandwidth of up to 25 GHz and offers data offload speeds up to 10 times faster than legacy instruments.
+
+## Key Features and Innovations
+Unmatched Signal Fidelity: Delivers an industry-leading ENOB (7.5 bits at 8 GHz to 6.5 bits at 25 GHz) due to its ultra-low random noise.
+
+* QuietChannel™ Technology: Uses active equalization to compensate for signal loss, reducing noise and improving measurement accuracy.
+* Breakthrough Speed: Achieves up to 10x faster data transfer with 10G SFP+ LAN and the TekHSI™ library.
+ù Scalable Architecture: Built with an upgradeable architecture and compatibility with the TekConnect® probe interface to protect long-term investment.
+
+Modern Workflow Integration: Features a 15.6” 1080p touchscreen, native serial analysis tools, and dual support for both Windows and Linux operating systems.
+
+## Software and Availability
+
+The 7 Series runs on TekScope® software, providing a consistent and intuitive user experience. The first model, the DPO714AX, is available for order now.

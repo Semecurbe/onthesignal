@@ -1,0 +1,14 @@
+---
+pagetitle: SP
+title: SP
+subtitle: Signal Processing
+title-block-banner: true
+sidebar: false
+search: false
+---
+
+
+```{=html}
+<iframe src="sp_python.html" width="100%" height="600px" style="border: none;">
+</iframe>
+```

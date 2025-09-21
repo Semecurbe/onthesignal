@@ -1,0 +1,47 @@
+---
+title: "William Crookes"
+subtitle: The Pioneer of Vacuum Tube Technology
+description: |
+ **Sir William Crookes** was a distinguished British chemist and physicist who made groundbreaking contributions to spectroscopy, the study of cathode rays, and the development of vacuum technology. His pioneering work with discharge tubes not only led to the discovery of new elements but also laid the foundation for modern electronics, including the cathode ray tube, which was central to early oscilloscopes and television.
+categories:
+  - Inventor
+  - Cathode-Ray Tube
+toc: false
+image: images/Sir_William_Crookes_1906.jpg
+image-alt: braun
+---
+
+
+
+
+
+## Early Life and Scientific Beginnings
+
+Born in London in **1832**, William Crookes showed an early aptitude for science. He began his studies at the Royal College of Chemistry in 1848, under the tutelage of the renowned chemist August Wilhelm von Hofmann. After working as a superintendent of the meteorological department at the Radcliffe Observatory in Oxford, he turned his full attention to chemistry and physics.
+
+## Key Discoveries and Inventions
+
+Crookes' scientific career was marked by several significant achievements:
+
+### Discovery of Thallium (1861)
+Using spectroscopy, a technique he significantly advanced, Crookes discovered the new element **Thallium** in **1861**, initially by observing a bright green line in the spectrum of selenium residues. He later isolated it and determined its atomic weight.
+
+### The Radiometer (1875)
+In **1875**, he invented the **Crookes Radiometer**, a device consisting of a partial vacuum bulb containing a set of vanes, typically black on one side and silver on the other, mounted on a spindle. When exposed to light, the vanes rotate, demonstrating a fascinating interplay of light, heat, and gas molecules, though the initial explanation for its operation was debated.
+
+### Cathode Ray Tubes and "Radiant Matter" (1870s-1880s)
+Crookes' most influential work involved his experiments with electrical discharges in highly evacuated glass tubes, which became known as **Crookes tubes**. He systematically studied the phenomena occurring when a high voltage was applied across electrodes inside these tubes.
+
+He observed:
+
+* A beam emanating from the cathode, capable of causing fluorescence where it struck the glass or other materials.
+* This "cathode ray" could be deflected by a magnetic field, suggesting it had mass and was negatively charged.
+* The rays traveled in straight lines and could cast shadows.
+
+Crookes termed the state of matter within these tubes "radiant matter," believing it represented a fourth state of matter beyond solid, liquid, and gas. While his interpretation of "radiant matter" as individual particles wasn't fully accepted until J.J. Thomson's work on the electron, his meticulous observations were crucial. His work directly led to Thomson's discovery of the electron in **1897** and provided the essential technology for Karl Ferdinand Braun's development of the cathode ray oscilloscope.
+
+## Later Contributions and Recognition
+
+Beyond his groundbreaking work on vacuum tubes, Crookes was also a pioneer in the study of rare-earth elements and made contributions to agricultural chemistry. He served as President of the British Association for the Advancement of Science and President of the Royal Society. He was knighted in **1897** for his scientific achievements.
+
+Sir William Crookes passed away in **1919**, leaving behind a legacy as a brilliant experimentalist whose meticulous observations and innovative apparatus profoundly advanced our understanding of electricity, matter, and light, paving the way for the electronic age.

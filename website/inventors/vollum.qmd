@@ -1,0 +1,49 @@
+---
+title: "Howard Vollum"
+subtitle: The Engineering Genius Behind Tektronix
+description: |
+ **Howard Vollum** was an American electrical engineer, co-founder, and technical visionary of **Tektronix, Inc.** His groundbreaking work on the oscilloscope transformed it from a niche scientific instrument into an indispensable tool for engineers and scientists, fundamentally shaping the development of modern electronics and computing. He is widely credited with the invention of the **triggered sweep oscilloscope**, a pivotal innovation that brought stability and precision to waveform measurement.
+categories:
+  - Inventor
+  - Instruments
+toc: false
+image: images/vollum.jpg
+image-alt: Vollum photo
+---
+
+
+
+
+
+
+## Early Life and Technical Aptitude
+
+Born in Portland, Oregon, in **1913**, Howard Vollum displayed a remarkable aptitude for electronics from an early age. His passion for radio and electronic circuits was evident in his youth. He pursued his education at Reed College in Portland, graduating in physics in **1936**. After graduation, he honed his practical skills by working on radio equipment and gaining valuable experience in electronics repair and design.
+
+During World War II, Vollum served in the U.S. Army Signal Corps, where he gained extensive experience with radar technology and advanced electronic test equipment. This period exposed him to the limitations of existing oscilloscopes, which often struggled to display stable, precise waveforms, particularly for non-repetitive or high-speed signals.
+
+## The Founding of Tektronix and the Triggered Sweep Revolution
+
+After the war, in **1946**, Vollum co-founded **Tektronix, Inc.** with Jack Murdock. Murdock handled the business and manufacturing aspects, while Vollum, the engineering genius, focused on research and development. Their goal was clear: to build better oscilloscopes.
+
+Vollum's key insight was the realization that a stable, repeatable display of a waveform required precise control over the oscilloscope's horizontal sweep. This led to his most significant invention: the **triggered sweep**. Instead of the continuous, free-running sweep found in earlier oscilloscopes, Vollum designed a circuit that would initiate the sweep only when the input signal reached a specific voltage level.
+
+This innovation, first implemented in the **Tektronix Model 511 oscilloscope** launched in **1947**, was a game-changer. It allowed engineers to:
+* **Observe stable, flicker-free waveforms:** Even for complex, single-shot, or very fast signals.
+* **Precisely measure signal characteristics:** As the waveform was consistently displayed at the same position.
+* **Debug electronic circuits more efficiently:** By providing a clear window into their operation.
+
+The Model 511, and the subsequent models designed under Vollum's technical leadership, set new industry standards for stability, accuracy, and ease of use.
+
+## Leadership and Innovation at Tektronix
+
+As President and later Chairman of the Board, Vollum maintained an intense focus on engineering excellence and innovation. Tektronix became renowned for its high-quality, high-performance oscilloscopes, attracting top engineering talent. Under his guidance, Tektronix continued to push boundaries, introducing:
+* **Modular plug-in oscilloscopes** in the 1950s, which allowed users to customize the instrument for various applications.
+* **Storage oscilloscopes**, capable of holding a waveform display for extended periods.
+* Advancements in **bandwidth** and **signal fidelity**.
+
+Vollum was known for his quiet demeanor, his deep technical knowledge, and his commitment to fostering an innovative, engineer-driven culture at Tektronix. He believed in providing engineers with the resources and freedom to explore new ideas, a philosophy that contributed significantly to the company's long-term success.
+
+## Legacy
+
+Howard Vollum retired from Tektronix in the early 1980s and passed away in **1986**. His contributions to electronics are immense. He didn't just improve an existing instrument; he essentially reinvented it, making the oscilloscope an indispensable tool that fueled the rapid advancements in electronics, computing, and telecommunications throughout the 20th century. His legacy lives on in every modern oscilloscope, which traces its lineage directly back to his fundamental innovation of the triggered sweep.

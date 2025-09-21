@@ -1,0 +1,41 @@
+---
+title: "Karl Ferdinand Braun "
+subtitle: The inventor of Cathode-Ray Tube
+description: |
+ **Karl Ferdinand Braun** was a **German physicist, inventor, and professor**, whose work profoundly impacted the development of modern electronics. He is best known for the invention of the **cathode ray tube** and for his fundamental contributions to **wireless telegraphy**, for which he received a Nobel Prize.
+categories:
+  - Inventor
+  - Cathode-Ray Tube
+toc: false
+image: images/Braun_1909.jpg
+image-alt: braun
+---
+
+
+
+### Early Life and Education
+
+Born on **June 6, 1850**, in Fulda, in the Electorate of Hesse (now Germany), Braun showed a great interest in science from an early age. He studied physics, chemistry, and mathematics at the University of Marburg before continuing his studies at the University of Berlin. He earned his doctorate there in **1872** with a thesis on the vibrations of elastic strings.
+
+### Major Scientific Contributions
+
+Braun's work spans several areas of physics, but two of his inventions particularly stand out.
+
+#### The Rectifier Effect (1874)
+While studying the conductivity of crystals, Braun discovered in 1874 that a point contact between a metal wire and a galena crystal (lead sulfide) did not conduct current equally in both directions. He had just discovered the **rectifier effect**, a fundamental principle of semiconductors. This discovery is the basis of the **diode**, an essential component of all modern electronics, and was later used in the first radio receivers, the famous "cat's whisker" radios.
+
+#### The Cathode Ray Tube (1897)
+
+In **1897**, while a professor at the University of Strasbourg, Braun developed the first **cathode ray tube**, also known as the "Braun tube." By using electromagnetic fields to deflect an electron beam directed at a phosphorescent screen, he managed to **visualize the waveform of an alternating current for the first time**. This device is the direct ancestor of the **oscilloscope**, as well as the television screens and computer monitors that dominated the 20th century.
+
+### The Nobel Prize in Physics
+
+Braun also took a keen interest in the emerging technology of wireless telegraphy. He made crucial improvements to Guglielmo Marconi's transmission system by developing a **coupled oscillating circuit** that significantly increased the power and range of radio transmitters.
+
+For these revolutionary works, Karl Ferdinand Braun shared the **1909 Nobel Prize in Physics** with **Guglielmo Marconi** "in recognition of their contributions to the development of wireless telegraphy."
+
+### Later Life
+
+In 1915, during World War I, Braun traveled to the United States to testify in a radio patent lawsuit. When the United States entered the war against Germany in 1917, he was considered an "enemy alien" and was not allowed to leave the country. He died in Brooklyn, New York, on **April 20, 1918**, before the end of the war.
+
+His legacy endures through his inventions that laid the foundations of the electronic and communications era.

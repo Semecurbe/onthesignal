@@ -1,0 +1,39 @@
+---
+title: "The History of the First Oscilloscopes"
+subtitle: The tube oscilloscope to digitization
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
+The oscilloscope, a fundamental instrument in the field of electronics, owes its existence to a series of inventions and improvements that spanned several decades. Its history is intrinsically linked to the development of the **cathode-ray tube (CRT)**.
+
+### The Origins: The Cathode-Ray Tube
+
+The crucial invention that made the oscilloscope possible was the cathode-ray tube. In **1897**, German physicist **Karl Ferdinand Braun** modified a Crookes tube by adding a phosphorescent screen and electrostatic deflection plates. This device, known as the "Braun tube," allowed the visualization of a waveform by deflecting an electron beam to "draw" on the screen. It was the first time an electrical waveform could be directly observed, although the device was still rudimentary.
+
+
+### The First Commercial Oscilloscope
+
+The very first commercial oscilloscope was developed by the American company **General Radio** in the **1920s**. However, it was **Allen B. DuMont**, an American engineer, who truly popularized the instrument.
+
+In **1931**, DuMont improved cathode-ray tube technology, making them much more durable, with a lifespan of over 1000 hours, compared to around a hundred previously. This advancement made oscilloscopes commercially viable. His company, **DuMont Laboratories**, began producing and selling oscilloscopes starting in **1934**. The **DuMont 164** model is often considered one of the first practical and widely adopted oscilloscopes.
+
+### The Key Innovation: Triggering
+
+Early oscilloscopes had a major limitation: the waveform display was often unstable, continuously scrolling across the screen. The real technological turning point came with the invention of the **trigger circuit**.
+
+It was **Tektronix**, founded in 1946, that revolutionized the market with its **Tektronix 511** model in **1947**. This oscilloscope integrated a trigger circuit (or *triggered sweep*) that allowed the horizontal sweep of the electron beam to synchronize with the input signal. The result: a **stable and clear** image of the waveform, which could be analyzed in detail. This innovation transformed the oscilloscope into a true precision measurement instrument.
+
+### Evolution and Impact
+
+From then on, oscilloscopes continuously improved:
+
+* **Increased bandwidth** to visualize increasingly faster signals.
+* **Introduction of multiple channels** to compare several signals simultaneously.
+* **Addition of measurement functions** (voltage, frequency, etc.) directly on the screen.
+
+These early instruments laid the groundwork for modern electronics, allowing engineers and scientists to "see" electrical signals for the first time. They were essential to the development of radio, television, radar, and later, computers and all digital technology.
+
+
+

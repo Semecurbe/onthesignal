@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Onthesignal</title>
+<link>https://www.onthesignal.com/news.html</link>
+<atom:link href="https://www.onthesignal.com/news.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>https://www.onthesignal.com/images/onthesignal.png</url>
+<title>Onthesignal</title>
+<link>https://www.onthesignal.com/news.html</link>
+<height>84</height>
+<width>144</width>
+</image>
+<generator>quarto-1.7.29</generator>
+<lastBuildDate>Wed, 08 Apr 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Tektronix Announces 7 Series DPO Oscilloscope, Setting New Performance Benchmark</title>
+  <link>https://www.onthesignal.com/news/dpo7.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Powered by two new proprietary ASICs (Tek079 and Tek085), the oscilloscope provides the industry’s lowest noise and highest Effective Number of Bits (ENOB). The series debuts with a bandwidth of up to 25 GHz and offers data offload speeds up to 10 times faster than legacy instruments.</p>
+<section id="key-features-and-innovations" class="level2">
+<h2 class="anchored" data-anchor-id="key-features-and-innovations">Key Features and Innovations</h2>
+<p>Unmatched Signal Fidelity: Delivers an industry-leading ENOB (7.5 bits at 8 GHz to 6.5 bits at 25 GHz) due to its ultra-low random noise.</p>
+<ul>
+<li>QuietChannel™ Technology: Uses active equalization to compensate for signal loss, reducing noise and improving measurement accuracy.</li>
+<li>Breakthrough Speed: Achieves up to 10x faster data transfer with 10G SFP+ LAN and the TekHSI™ library. ù Scalable Architecture: Built with an upgradeable architecture and compatibility with the TekConnect® probe interface to protect long-term investment.</li>
+</ul>
+<p>Modern Workflow Integration: Features a 15.6” 1080p touchscreen, native serial analysis tools, and dual support for both Windows and Linux operating systems.</p>
+</section>
+<section id="software-and-availability" class="level2">
+<h2 class="anchored" data-anchor-id="software-and-availability">Software and Availability</h2>
+<p>The 7 Series runs on TekScope® software, providing a consistent and intuitive user experience. The first model, the DPO714AX, is available for order now.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Tektronix</category>
+  <guid>https://www.onthesignal.com/news/dpo7.html</guid>
+  <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
+  <media:content url="https://www.onthesignal.com/news/images/hp.svg" medium="image" type="image/svg+xml"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Onthesignal</title>
+
+  <!-- jQuery Terminal -->
+  <link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+
+  <!-- Pyodide -->
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js"></script>
+
+  <!-- BokehJS principal + API -->
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.js"></script>
+  <script src="https://cdn.bokeh.org/bokeh/release/bokeh-api-3.3.4.min.js"></script>
+  <link href="https://cdn.bokeh.org/bokeh/release/bokeh-3.3.4.min.css" rel="stylesheet">
+
+  <style>
+    body { margin: 0; height: 100vh; display: flex; }
+    #terminal { width: 50%; height: 100%; overflow-y: auto; }
+    #bokeh { width: 50%; height: 100%; border-left: 2px solid #ccc; display: flex; justify-content: center; align-items: center; }
+  </style>
+</head>
+<body>
+  <div id="terminal"></div>
+  <div id="bokeh"></div>
+
+  <script>
+    let pyodide;
+    let fig;
+
+    // Fonction JS générique : ajoute un plot au graphique
+    function addPlot(type, x_py, y_py) {
+      let x = x_py.toJs ? x_py.toJs() : x_py;
+      let y = y_py.toJs ? y_py.toJs() : y_py;
+
+      if (type === "line") {
+        fig.line(x, y, { line_width: 2, color: "blue" });
+      } else if (type === "scatter") {
+        fig.circle(x, y, { size: 8, color: "red" });
+      } else if (type === "bar") {
+        fig.vbar({ x: x, top: y, width: 0.5, color: "green" });
+      }
+    }
+
+    async function main() {
+      const term = $('#terminal').terminal(async function(command) {
+        if (!pyodide) {
+          term.echo("⏳ Pyodide n'est pas encore chargé...");
+          return;
+        }
+        if (!command.trim()) return;
+
+        term.pause();
+        try {
+          pyodide.setStdout({ batched: str => term.echo(str) });
+          const result = await pyodide.runPythonAsync(command);
+          if (result !== undefined) term.echo(String(result));
+          pyodide.setStdout({});
+        } catch (err) {
+          term.error(String(err));
+        }
+        term.resume();
+      }, {
+        greetings: '✅ Pyodide prêt.\nCommandes dispo: plot(x,y), scatter(x,y), bar(x,y), clear()\nExemple : \nimport numpy as np\nx = np.linspace(0, 10, 50)\ny = np.sin(x)\nplot(y, x)',
+        name: 'python_terminal',
+        prompt: '>>> '
+      });
+
+      pyodide = await loadPyodide();
+
+      // Charger NumPy, SciPy et pandas
+      await pyodide.loadPackage(["numpy", "scipy", "pandas"]);
+
+      // Injection des fonctions Python
+      pyodide.runPython(`
+import js
+import numpy as np
+import pandas as pd
+import scipy
+
+def plot(y, x=None):
+    if isinstance(y, (np.ndarray, pd.Series)):
+        y = y.tolist()
+    if x is None:
+        x = list(range(1, len(y)+1))
+    elif isinstance(x, (np.ndarray, pd.Series)):
+        x = x.tolist()
+    js.addPlot("line", x, y)
+    return "Line plot ajouté"
+
+def scatter(y, x=None):
+    if isinstance(y, (np.ndarray, pd.Series)):
+        y = y.tolist()
+    if x is None:
+        x = list(range(1, len(y)+1))
+    elif isinstance(x, (np.ndarray, pd.Series)):
+        x = x.tolist()
+    js.addPlot("scatter", x, y)
+    return "Scatter plot ajouté"
+
+def bar(y, x=None):
+    if isinstance(y, (np.ndarray, pd.Series)):
+        y = y.tolist()
+    if x is None:
+        x = list(range(1, len(y)+1))
+    elif isinstance(x, (np.ndarray, pd.Series)):
+        x = x.tolist()
+    js.addPlot("bar", x, y)
+    return "Bar chart ajouté"
+
+def clear():
+    js.showNewFigure()
+    return "Figure réinitialisée"
+      `);
+
+      term.echo("🚀 NumPy, SciPy et pandas sont disponibles !");
+    }
+
+    main();
+
+    // --- Initialiser Bokeh ---
+    const { figure, show } = Bokeh.Plotting;
+    function showNewFigure() {
+      document.querySelector("#bokeh").innerHTML = ""; // reset DOM
+      fig = figure({ title: "Graphiques interactifs", height: 700, width: 400 });
+      show(fig, "#bokeh");
+    }
+    window.showNewFigure = showNewFigure; // exposer à Python
+    showNewFigure();
+  </script>
+</body>
+</html>

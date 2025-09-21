@@ -1,0 +1,45 @@
+---
+title: "William R. Hewlett"
+subtitle: The Engineering Visionary of Hewlett-Packard
+description: |
+ **William (Bill) Redington Hewlett** was an American engineer, entrepreneur, and co-founder of **Hewlett-Packard (HP)**. Alongside his partner, David Packard, he built one of the most influential technology companies in history. Hewlett was primarily the **engineering and technical genius** behind HP's early innovations, a brilliant problem-solver whose passion for practical design laid the foundation for HP's reputation for high-quality, reliable, and user-friendly electronic instruments.
+categories:
+  - Inventor
+  - Cathode-Ray Tube
+  - Oscilloscope
+toc: false
+image: images/hewlett.jpg
+image-alt: Hewlett photo
+---
+
+## Early Life and Educational Foundations
+
+Born in Ann Arbor, Michigan, in **1913**, Bill Hewlett moved to San Francisco, California, at an early age. His aptitude for engineering and electronics was evident during his studies. He attended Stanford University, where he received his bachelor's degree in electrical engineering in **1934**. It was at Stanford that he met David Packard, a fellow student with whom he would forge a lifelong partnership.
+
+Hewlett furthered his education, earning an E.E. degree from MIT in **1936**. His academic background, combined with a hands-on approach to problem-solving, equipped him with the deep technical knowledge and practical skills that would define HP's early product development.
+
+## The Garage and the Audio Oscillator (1939)
+
+The legendary story of Hewlett-Packard began in **1939** in a small garage in Palo Alto, California. With just $538 in capital, Hewlett and Packard officially founded their company.
+
+Hewlett's first major contribution was the design of their inaugural product: the **HP 200A Audio Oscillator**. This revolutionary instrument was a low-distortion audio oscillator that was more stable and significantly more affordable than anything else on the market at the time. Hewlett's innovative design used a light bulb as a temperature-sensitive resistor in a feedback loop, which was a clever and cost-effective way to stabilize the output.
+
+The HP 200A's commercial breakthrough came when **Walt Disney Studios** ordered eight modified units (the HP 200B) for testing audio systems during the production of the film *Fantasia*. This order validated Hewlett's engineering brilliance and the company's potential.
+
+## The "HP Way" and Technical Leadership
+
+As HP grew, Bill Hewlett played a pivotal role in shaping the company's unique corporate culture, known as "The HP Way." While both founders contributed to this philosophy, Hewlett's influence was particularly strong in fostering an environment of **engineering excellence, innovation, and direct engagement with technical challenges**.
+
+He championed:
+
+* **"Management by Wandering Around" (MBWA):** Regularly walking through the engineering labs and production floors to interact directly with employees, understand their work, and offer guidance.
+* **Open Labs:** Encouraging engineers to work on personal projects, which often led to new HP products.
+* **Decentralization and Trust:** Empowering engineers with autonomy and responsibility.
+
+Hewlett's vision ensured that HP remained at the forefront of technical innovation, consistently developing cutting-edge test and measurement instruments, calculators, and eventually computers. His focus was always on creating practical, high-performance tools that genuinely helped engineers and scientists.
+
+## Legacy
+
+Bill Hewlett served as President and CEO of HP for many years, eventually becoming Chairman of the Executive Committee. He retired from active management in 1978 but remained influential within the company.
+
+He passed away in **2001**, leaving behind an indelible mark on the technology world. Hewlett's combination of brilliant engineering, an innovative spirit, and a commitment to people-centric management built a company that not only produced iconic products but also defined many of the best practices of Silicon Valley. His legacy is etched into the very fabric of electronic engineering, proving that a deep understanding of technology, coupled with visionary leadership, can change the world.

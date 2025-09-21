@@ -1,0 +1,48 @@
+---
+title: "Jack Murdock"
+subtitle: The Entrepreneurial Force Behind Tektronix
+description: |
+ **Jack Murdock** was an American entrepreneur and businessman, best known as the co-founder of **Tektronix, Inc.** While Howard Vollum provided the brilliant engineering mind, Murdock was the indispensable business acumen and organizational force that transformed innovative ideas into a thriving, world-leading company. His leadership in manufacturing, sales, and employee relations was crucial to Tektronix's rapid growth and lasting success in the electronics industry.
+categories:
+  - Entrepreneur
+  - Oscilloscope
+toc: false
+image: images/murdock.jpg
+image-alt: Murdock photo
+---
+
+## Early Life and Business Acumen
+
+Born in Portland, Oregon, in **1917**, Jack Murdock developed a strong entrepreneurial spirit from a young age. Unlike Vollum's deep technical focus, Murdock's talents lay in organization, finance, and understanding market needs. He gained valuable experience in sales and radio parts distribution, which gave him insights into the electronics market and the practical challenges faced by engineers.
+
+During World War II, Murdock served in the U.S. Coast Guard. Upon his return, he and Howard Vollum, whom he had known from their shared interest in electronics, recognized a significant unmet need for better electronic test equipment, particularly oscilloscopes.
+
+## Co-founding Tektronix and Building a Company Culture
+
+In **1946**, Jack Murdock and Howard Vollum co-founded **Tektronix, Inc.** Murdock's role was to build the business infrastructure around Vollum's engineering innovations. This included:
+
+* **Securing Funding:** Initially through personal savings and loans, to get the company off the ground.
+* **Manufacturing Setup:** Establishing efficient production lines for the intricate electronic instruments.
+* **Sales and Marketing:** Creating a distribution network and strategies to bring Tektronix products to market.
+* **Financial Management:** Ensuring the company's financial stability and growth.
+
+Murdock's keen business sense complemented Vollum's technical genius perfectly. While Vollum focused on designing the revolutionary Model 511 oscilloscope with its triggered sweep, Murdock ensured that the company had the means to produce it efficiently, market it effectively, and support its customers.
+
+### A Pioneering Employee Philosophy
+
+Beyond financial and operational management, Jack Murdock was also a pioneer in **employee relations and corporate culture**. He believed strongly in treating employees as valued partners, establishing progressive policies that were ahead of their time:
+
+* **Profit Sharing:** Employees shared directly in the company's success.
+* **Excellent Benefits:** Comprehensive healthcare and other benefits.
+* **Open Communication:** Fostering a transparent and collaborative work environment.
+* **Employee Stock Ownership:** Giving employees a stake in the company.
+
+This progressive approach not only attracted and retained top talent but also fostered a highly dedicated and motivated workforce, which was a significant factor in Tektronix's ability to innovate and maintain its market leadership.
+
+## Later Years and Philanthropy
+
+Murdock served as Tektronix's President for many years and later as Chairman. He oversaw the company's expansion into a global leader in electronic test and measurement.
+
+Tragically, Jack Murdock died in a plane crash in **1984**. His death was a significant loss, not only for Tektronix but also for the Portland community, where he was known for his extensive philanthropy.
+
+Jack Murdock's legacy is one of successful entrepreneurship, visionary business leadership, and a profound commitment to his employees and community. He built the framework that allowed Howard Vollum's technical innovations to reach the world, proving that a strong business foundation is just as critical as technical brilliance for groundbreaking success. His influence on corporate culture, particularly in the tech industry, continues to be studied and admired.

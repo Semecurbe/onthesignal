@@ -1,0 +1,35 @@
+---
+title: "Tektronix"
+subtitle: The Dawn of a Revolution The Birth of the First Tektronix Oscilloscopes
+description: |
+ In the aftermath of World War II, in a humble basement in Portland, Oregon, a revolution in the world of electronic measurement was about to be born. This is where **Tektronix** came into being in 1946, founded by Howard Vollum and Jack Murdock. Their first commercial oscilloscope, the **Model 511**, was not just a product; it redefined what an oscilloscope could be and propelled Tektronix to the forefront of the industry for decades to come.
+categories:
+  - Instruments company
+toc: false
+image: images/tek.svg
+image-alt: logo tek
+---
+
+### A Revolution Born in a Basement
+
+In the aftermath of World War II, in a humble basement in Portland, Oregon, a revolution in the world of electronic measurement was about to be born. This is where **Tektronix** came into being in 1946, founded by Howard Vollum and Jack Murdock. Their first commercial oscilloscope, the **Model 511**, was not just a product; it redefined what an oscilloscope could be and propelled Tektronix to the forefront of the industry for decades to come.
+
+### The Genesis of Innovation: The Triggered Sweep
+
+Before Tektronix, oscilloscopes were often unstable and difficult-to-use instruments. Visualizing an electronic signal clearly and stably was more of an art than a science. Howard Vollum's major innovation, the technical brain of the duo, was to integrate a triggered sweep circuit into a commercial device.
+
+This technology allowed the oscilloscope to start its horizontal sweep at the same point on the input signal every time. The result was a static, sharp image on the screen, even for complex and non-repetitive signals. This advancement transformed the oscilloscope from a simple qualitative viewing tool into a precise and reliable quantitative measurement instrument.
+
+### The Tektronix 511: A New Era of Measurement
+
+Launched in 1947, the Tektronix 511 quickly captured the market. Sold for $795, a significant price for the time, it offered unparalleled performance and ease of use. Besides its triggered sweep, the 511 stood out for several other innovative features:
+
+-   **Precision and Stability:** Thanks to regulated power supplies, the 511 offered significantly higher stability and measurement precision than its competitors.
+-   **Portability:** Compared to the massive instruments of the era, the 511 was relatively compact and portable, making it practical for both laboratory and field use.
+-   **Manufacturing Quality:** Tektronix built a reputation for manufacturing excellence, ensuring the reliability and longevity of its devices.
+
+The success of the 511 was immediate and laid the foundation for the company's future growth. It allowed engineers and technicians to "see" electronics like never before, accelerating development in many areas, from television to nascent computing.
+
+### The Legacy of the Pioneers
+
+The history of the first Tektronix oscilloscopes is inseparable from the vision of its founders. Howard Vollum, the brilliant engineer, and Jack Murdock, the shrewd businessman, succeeded in creating a company where innovation and quality were paramount. Their philosophy not only gave birth to revolutionary products like the 511 but also established a corporate culture that attracted the best talent and fostered decades of technological advancements. The introduction of modular oscilloscopes (plug-ins) in the 1950s is just one example of this continuous innovation that kept Tektronix at the top of its field.

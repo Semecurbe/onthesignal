@@ -1,0 +1,25 @@
+---
+title: "RSS feeds"
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: true
+---
+### Latest content
+[realworlddatascience.net/latest-content.xml](https://realworlddatascience.net/latest-content.xml)
+
+### Applied Insights
+[realworlddatascience.net/applied-insights/index.xml](https://realworlddatascience.net/applied-insights/index.xml)
+
+### Case studies
+[realworlddatascience.net/case-studies/index.xml](https://realworlddatascience.net/applied-insights/case-studies/index.xml)
+
+### Foundations & Frontiers
+[realworlddatascience.net/foundation-frontiers/index.xml](https://realworlddatascience.net/foundation-frontiers/index.xml)
+
+### People & Paths
+[realworlddatascience.net/people-paths/index.xml](https://realworlddatascience.net/people-paths/index.xml)
+
+### The Pulse
+[realworlddatascience.net/the-pulse/index.xml](https://realworlddatascience.net/the-pulse/index.xml)
+
