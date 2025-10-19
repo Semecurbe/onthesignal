@@ -1,0 +1,27 @@
+---
+title: "China has officially unveiled its new homegrown 90GHz ultra-high-speed real-time oscilloscope"
+subtitle: Oscilloscope
+description: |
+ Marking a significant milestone for the global electronic communications sector. The announcement was made at the WESEMiBAY Semiconductor Ecosystem Expo 2025 in Shenzhen.
+categories:
+  - Oscilloscope
+image: images/90_ghz_china.jpg
+image-alt: 90 GHz china oscilloscope
+toc: false
+date: 10/15/2025
+---
+::: {style="float: right; margin-left: 15px; margin-bottom: 10px;"}
+![90 GHz china oscilloscope](images/90_ghz_china.jpg){width="200px" height="150px"}
+:::
+China has officially unveiled its new homegrown 90GHz ultra-high-speed real-time oscilloscope, marking a significant milestone for the global electronic communications sector. The announcement was made at the WESEMiBAY Semiconductor Ecosystem Expo 2025 in Shenzhen.
+
+## Key Features and Innovations
+
+
+An oscilloscope is a crucial piece of equipment that serves as the "eyes" for engineers by converting invisible electrical signals into visible waveforms. According to Liu Sang, CEO of one of the developers (Shenzhen Longsight Technologies), this achievement required sustained innovation across materials, manufacturing, chips, and algorithms.
+
+{{< video https://www.youtube.com/watch?v=4TcgqLoD28Q width="600" height="340" align="center" >}}
+
+The device has already been tested and applied by several enterprises, including Huawei.
+
+

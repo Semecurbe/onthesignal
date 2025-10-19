@@ -10,14 +10,44 @@
 <atom:link href="https://www.onthesignal.com/news.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://www.onthesignal.com/images/onthesignal.png</url>
+<url>https://www.onthesignal.com/images/onthesignal.svg</url>
 <title>Onthesignal</title>
 <link>https://www.onthesignal.com/news.html</link>
-<height>84</height>
-<width>144</width>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Wed, 08 Apr 2026 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Oct 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>China has officially unveiled its new homegrown 90GHz ultra-high-speed real-time oscilloscope</title>
+  <link>https://www.onthesignal.com/news/90_ghz_china.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div style="float: right; margin-left: 15px; margin-bottom: 10px;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.onthesignal.com/news/images/90_ghz_china.jpg" width="200" height="150" class="figure-img"></p>
+<figcaption>90 GHz china oscilloscope</figcaption>
+</figure>
+</div>
+</div>
+<p>China has officially unveiled its new homegrown 90GHz ultra-high-speed real-time oscilloscope, marking a significant milestone for the global electronic communications sector. The announcement was made at the WESEMiBAY Semiconductor Ecosystem Expo 2025 in Shenzhen.</p>
+<section id="key-features-and-innovations" class="level2">
+<h2 class="anchored" data-anchor-id="key-features-and-innovations">Key Features and Innovations</h2>
+<p>An oscilloscope is a crucial piece of equipment that serves as the “eyes” for engineers by converting invisible electrical signals into visible waveforms. According to Liu Sang, CEO of one of the developers (Shenzhen Longsight Technologies), this achievement required sustained innovation across materials, manufacturing, chips, and algorithms.</p>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/4TcgqLoD28Q" width="600" height="340" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>The device has already been tested and applied by several enterprises, including Huawei.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Oscilloscope</category>
+  <guid>https://www.onthesignal.com/news/90_ghz_china.html</guid>
+  <pubDate>Tue, 14 Oct 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://www.onthesignal.com/news/images/90_ghz_china.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Tektronix Announces 7 Series DPO Oscilloscope, Setting New Performance Benchmark</title>
   <link>https://www.onthesignal.com/news/dpo7.html</link>
@@ -29,6 +59,14 @@
 <p>Powered by two new proprietary ASICs (Tek079 and Tek085), the oscilloscope provides the industry’s lowest noise and highest Effective Number of Bits (ENOB). The series debuts with a bandwidth of up to 25 GHz and offers data offload speeds up to 10 times faster than legacy instruments.</p>
 <section id="key-features-and-innovations" class="level2">
 <h2 class="anchored" data-anchor-id="key-features-and-innovations">Key Features and Innovations</h2>
+<div style="float: right; margin-left: 15px; margin-bottom: 10px;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.onthesignal.com/news/images/tek-dpo.webp" class="img-fluid figure-img" width="200"></p>
+<figcaption>Series DPO Oscilloscope</figcaption>
+</figure>
+</div>
+</div>
 <p>Unmatched Signal Fidelity: Delivers an industry-leading ENOB (7.5 bits at 8 GHz to 6.5 bits at 25 GHz) due to its ultra-low random noise.</p>
 <ul>
 <li>QuietChannel™ Technology: Uses active equalization to compensate for signal loss, reducing noise and improving measurement accuracy.</li>
@@ -46,8 +84,8 @@
  ]]></description>
   <category>Tektronix</category>
   <guid>https://www.onthesignal.com/news/dpo7.html</guid>
-  <pubDate>Wed, 08 Apr 2026 22:00:00 GMT</pubDate>
-  <media:content url="https://www.onthesignal.com/news/images/hp.svg" medium="image" type="image/svg+xml"/>
+  <pubDate>Sun, 14 Sep 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://www.onthesignal.com/news/images/tek-dpo.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>

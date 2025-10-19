@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Onthesignal"
-  image: images/onthesignal.png
-  favicon: images/rwds-favicon.png
+  image: images/onthesignal.svg
+  favicon: images/logo_onthesignal.png
   twitter-card:
     site: "@rwdatasci"
   open-graph: true
@@ -19,21 +19,21 @@ website:
   navbar:
     toggle-position: right
     background: "#f0eeeb"
-    logo: images/onthesignal.png
-    logo-alt: "Real World Data Science brand"
+    logo: images/onthesignal.svg
+    logo-alt: "Onthesignal"
     title: false
     collapse-below: lg
     right:
       - news.qmd
       - sp.qmd
-      - text: "Instruments"
-        menu: 
-        - text: "History"
-          href: history.qmd
-        - text: "Companies"
-          href: companies.qmd
-        - text: "Inventors"
-          href: inventors.qmd
+      #- text: "Instruments"
+      #  menu: 
+      #  - text: "History"
+      #    href: history.qmd
+      #  - text: "Companies"
+      #    href: companies.qmd
+      #  - text: "Inventors"
+      #    href: inventors.qmd
   sidebar: 
     - title: "About us"
       contents:

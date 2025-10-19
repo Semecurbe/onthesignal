@@ -10,11 +10,9 @@
 <atom:link href="https://www.onthesignal.com/sp/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://www.onthesignal.com/images/onthesignal.png</url>
+<url>https://www.onthesignal.com/images/onthesignal.svg</url>
 <title>Onthesignal</title>
 <link>https://www.onthesignal.com/sp/</link>
-<height>84</height>
-<width>144</width>
 </image>
 <generator>quarto-1.7.29</generator>
 <lastBuildDate>Sun, 03 Aug 2025 22:00:00 GMT</lastBuildDate>

@@ -10,14 +10,12 @@
 <atom:link href="https://www.onthesignal.com/latest-content.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://www.onthesignal.com/images/onthesignal.png</url>
+<url>https://www.onthesignal.com/images/onthesignal.svg</url>
 <title>Onthesignal</title>
 <link>https://www.onthesignal.com/latest-content.html</link>
-<height>84</height>
-<width>144</width>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Sun, 21 Sep 2025 20:04:34 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Oct 2025 18:08:37 GMT</lastBuildDate>
 <item>
   <title>Hewlett-Packard (HP)</title>
   <link>https://www.onthesignal.com/companies/hp.html</link>
@@ -73,7 +71,7 @@
   <category>Instruments company</category>
   <category>Computer</category>
   <guid>https://www.onthesignal.com/companies/hp.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:34 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:37 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/companies/images/hp.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -113,7 +111,7 @@
  ]]></description>
   <category>Instruments company</category>
   <guid>https://www.onthesignal.com/companies/tek.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:34 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:37 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/companies/images/tek.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>

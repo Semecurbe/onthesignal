@@ -37,6 +37,55 @@
     ]
   },
   {
+    "listing": "/sp/newsletter/index.html",
+    "items": []
+  },
+  {
+    "listing": "/companies.html",
+    "items": [
+      "/companies/hp.html",
+      "/companies/tek.html"
+    ]
+  },
+  {
+    "listing": "/sp/editors-blog/index.html",
+    "items": [
+      "/sp/editors-blog/posts/2025/07/08/relaunch-CFS.html",
+      "/sp/editors-blog/posts/2025/07/07/editors-relaunch.html",
+      "/sp/editors-blog/posts/2024/03/editors-note.html",
+      "/sp/editors-blog/posts/2024/02/08/llms-whitepaper-response.html",
+      "/sp/editors-blog/posts/2024/01/22/gen-ai-framework.html",
+      "/sp/editors-blog/posts/2024/01/18/cherry-blossom.html",
+      "/sp/editors-blog/posts/2024/01/03/posit-conf-video.html",
+      "/sp/editors-blog/posts/2023/12/12/rwds-xmas-card.html",
+      "/sp/editors-blog/posts/2023/12/08/digital-ethics-summit.html",
+      "/sp/editors-blog/posts/2023/10/30/ai-conf-panel.html",
+      "/sp/editors-blog/posts/2023/10/10/october-events.html",
+      "/sp/editors-blog/posts/2023/10/02/asa-partner.html",
+      "/sp/editors-blog/posts/2023/09/19/positconf-blog.html",
+      "/sp/editors-blog/posts/2023/09/12/template.html",
+      "/sp/editors-blog/posts/2023/08/24/rss-conference.html",
+      "/sp/editors-blog/posts/2023/08/06/jsm-blog.html",
+      "/sp/editors-blog/posts/2023/07/27/schools-outreach.html",
+      "/sp/editors-blog/posts/2023/07/19/code-interpreter.html",
+      "/sp/editors-blog/posts/2023/07/07/LDW.html",
+      "/sp/editors-blog/posts/2023/06/13/how-do-people-feel-about-ai.html",
+      "/sp/editors-blog/posts/2023/05/26/future.html",
+      "/sp/editors-blog/posts/2023/03/29/defining-DS.html",
+      "/sp/editors-blog/posts/2023/03/15/AI-screening.html",
+      "/sp/editors-blog/posts/2023/02/14/digital-skills.html",
+      "/sp/editors-blog/posts/2023/01/27/talking-chatgpt.html",
+      "/sp/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html",
+      "/sp/editors-blog/posts/2023/01/05/newsletter.html",
+      "/sp/editors-blog/posts/2022/12/13/dsb-launch.html",
+      "/sp/editors-blog/posts/2022/12/09/LLM-news.html",
+      "/sp/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html",
+      "/sp/editors-blog/posts/2022/12/01/themes.html",
+      "/sp/editors-blog/posts/2022/11/23/LLM-content-warning.html",
+      "/sp/editors-blog/posts/2022/10/18/meet-the-team.html"
+    ]
+  },
+  {
     "listing": "/sp/index.html",
     "items": [
       "/sp/posts/2025/08/04/AI-in-Bus-Review.html",
@@ -84,101 +133,6 @@
     ]
   },
   {
-    "listing": "/sp/editors-blog/index.html",
-    "items": [
-      "/sp/editors-blog/posts/2025/07/08/relaunch-CFS.html",
-      "/sp/editors-blog/posts/2025/07/07/editors-relaunch.html",
-      "/sp/editors-blog/posts/2024/03/editors-note.html",
-      "/sp/editors-blog/posts/2024/02/08/llms-whitepaper-response.html",
-      "/sp/editors-blog/posts/2024/01/22/gen-ai-framework.html",
-      "/sp/editors-blog/posts/2024/01/18/cherry-blossom.html",
-      "/sp/editors-blog/posts/2024/01/03/posit-conf-video.html",
-      "/sp/editors-blog/posts/2023/12/12/rwds-xmas-card.html",
-      "/sp/editors-blog/posts/2023/12/08/digital-ethics-summit.html",
-      "/sp/editors-blog/posts/2023/10/30/ai-conf-panel.html",
-      "/sp/editors-blog/posts/2023/10/10/october-events.html",
-      "/sp/editors-blog/posts/2023/10/02/asa-partner.html",
-      "/sp/editors-blog/posts/2023/09/19/positconf-blog.html",
-      "/sp/editors-blog/posts/2023/09/12/template.html",
-      "/sp/editors-blog/posts/2023/08/24/rss-conference.html",
-      "/sp/editors-blog/posts/2023/08/06/jsm-blog.html",
-      "/sp/editors-blog/posts/2023/07/27/schools-outreach.html",
-      "/sp/editors-blog/posts/2023/07/19/code-interpreter.html",
-      "/sp/editors-blog/posts/2023/07/07/LDW.html",
-      "/sp/editors-blog/posts/2023/06/13/how-do-people-feel-about-ai.html",
-      "/sp/editors-blog/posts/2023/05/26/future.html",
-      "/sp/editors-blog/posts/2023/03/29/defining-DS.html",
-      "/sp/editors-blog/posts/2023/03/15/AI-screening.html",
-      "/sp/editors-blog/posts/2023/02/14/digital-skills.html",
-      "/sp/editors-blog/posts/2023/01/27/talking-chatgpt.html",
-      "/sp/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html",
-      "/sp/editors-blog/posts/2023/01/05/newsletter.html",
-      "/sp/editors-blog/posts/2022/12/13/dsb-launch.html",
-      "/sp/editors-blog/posts/2022/12/09/LLM-news.html",
-      "/sp/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html",
-      "/sp/editors-blog/posts/2022/12/01/themes.html",
-      "/sp/editors-blog/posts/2022/11/23/LLM-content-warning.html",
-      "/sp/editors-blog/posts/2022/10/18/meet-the-team.html"
-    ]
-  },
-  {
-    "listing": "/people-paths/career-profiles/index.html",
-    "items": [
-      "/people-paths/career-profiles/posts/2023/10/04/niclas-thomas.html",
-      "/people-paths/career-profiles/posts/2023/06/28/albert-lee.html",
-      "/people-paths/career-profiles/posts/2023/06/28/claire-morton.html",
-      "/people-paths/career-profiles/posts/2023/06/20/chanuki-seresinhe.html",
-      "/people-paths/career-profiles/posts/2023/05/24/jasmine-holdsworth.html",
-      "/people-paths/career-profiles/posts/2023/04/24/sami-rahman.html",
-      "/people-paths/career-profiles/posts/2023/03/28/tamanna-haque.html"
-    ]
-  },
-  {
-    "listing": "/people-paths/index.html",
-    "items": [
-      "/people-paths/posts/2024/03/27/pholborn-interview.html",
-      "/people-paths/posts/2024/03/21/mjones-interview.html",
-      "/people-paths/career-profiles/posts/2023/10/04/niclas-thomas.html",
-      "/people-paths/career-profiles/posts/2023/06/28/albert-lee.html",
-      "/people-paths/career-profiles/posts/2023/06/28/claire-morton.html",
-      "/people-paths/career-profiles/posts/2023/06/20/chanuki-seresinhe.html",
-      "/people-paths/career-profiles/posts/2023/05/24/jasmine-holdsworth.html",
-      "/people-paths/posts/2023/05/18/chatgpt-data-science-pt2.html",
-      "/people-paths/posts/2023/05/11/chatgpt-data-science-pt1.html",
-      "/people-paths/career-profiles/posts/2023/04/24/sami-rahman.html",
-      "/people-paths/posts/2023/04/18/politics-of-performance-measurement.html",
-      "/people-paths/career-profiles/posts/2023/03/28/tamanna-haque.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/people-paths/posts/2024/03/27/pholborn-interview.html",
-      "/people-paths/posts/2024/03/21/mjones-interview.html",
-      "/people-paths/career-profiles/posts/2023/10/04/niclas-thomas.html",
-      "/people-paths/career-profiles/posts/2023/06/28/albert-lee.html",
-      "/people-paths/career-profiles/posts/2023/06/28/claire-morton.html",
-      "/people-paths/career-profiles/posts/2023/06/20/chanuki-seresinhe.html",
-      "/people-paths/career-profiles/posts/2023/05/24/jasmine-holdsworth.html",
-      "/people-paths/posts/2023/05/18/chatgpt-data-science-pt2.html",
-      "/people-paths/posts/2023/05/11/chatgpt-data-science-pt1.html",
-      "/people-paths/career-profiles/posts/2023/04/24/sami-rahman.html",
-      "/people-paths/posts/2023/04/18/politics-of-performance-measurement.html",
-      "/people-paths/career-profiles/posts/2023/03/28/tamanna-haque.html"
-    ]
-  },
-  {
-    "listing": "/companies.html",
-    "items": [
-      "/companies/hp.html",
-      "/companies/tek.html"
-    ]
-  },
-  {
-    "listing": "/sp/newsletter/index.html",
-    "items": []
-  },
-  {
     "listing": "/instruments_old/case-studies/index.html",
     "items": [
       "/instruments_old/case-studies/posts/2025/08/12/deploying-agentic-ai.html",
@@ -216,6 +170,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/news/90_ghz_china.html",
       "/news/dpo7.html"
     ]
   }

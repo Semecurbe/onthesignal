@@ -10,14 +10,12 @@
 <atom:link href="https://www.onthesignal.com/inventors.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <image>
-<url>https://www.onthesignal.com/images/onthesignal.png</url>
+<url>https://www.onthesignal.com/images/onthesignal.svg</url>
 <title>Onthesignal</title>
 <link>https://www.onthesignal.com/inventors.html</link>
-<height>84</height>
-<width>144</width>
 </image>
 <generator>quarto-1.7.29</generator>
-<lastBuildDate>Sun, 21 Sep 2025 20:04:33 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Oct 2025 18:08:36 GMT</lastBuildDate>
 <item>
   <title>Sir J.J. Thomson</title>
   <link>https://www.onthesignal.com/inventors/thomson.html</link>
@@ -61,7 +59,7 @@
   <category>Entrepreneur</category>
   <category>Instruments</category>
   <guid>https://www.onthesignal.com/inventors/thomson.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/thomson.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -105,7 +103,7 @@
   <category>Inventor</category>
   <category>Cathode-Ray Tube</category>
   <guid>https://www.onthesignal.com/inventors/braun.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/Braun_1909.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -152,7 +150,7 @@
   <category>Instruments</category>
   <category>Entrepreneur</category>
   <guid>https://www.onthesignal.com/inventors/walter_lecroy.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/walter-photo.webp" medium="image" type="image/webp"/>
 </item>
 <item>
@@ -198,7 +196,7 @@
   <category>Cathode-Ray Tube</category>
   <category>Oscilloscope</category>
   <guid>https://www.onthesignal.com/inventors/hewlett.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/hewlett.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -248,7 +246,7 @@
   <category>Inventor</category>
   <category>Cathode-Ray Tube</category>
   <guid>https://www.onthesignal.com/inventors/crookes.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/Sir_William_Crookes_1906.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -300,7 +298,7 @@
   <category>Entrepreneur</category>
   <category>Instruments</category>
   <guid>https://www.onthesignal.com/inventors/packard.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/packard.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -347,7 +345,7 @@
   <category>Inventor</category>
   <category>Cathode-Ray Tube</category>
   <guid>https://www.onthesignal.com/inventors/dumont.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/dumont.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -398,7 +396,7 @@
   <category>Entrepreneur</category>
   <category>Oscilloscope</category>
   <guid>https://www.onthesignal.com/inventors/murdock.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/murdock.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -437,7 +435,7 @@
   <category>Inventor</category>
   <category>Instruments</category>
   <guid>https://www.onthesignal.com/inventors/vollum.html</guid>
-  <pubDate>Sun, 21 Sep 2025 20:04:33 GMT</pubDate>
+  <pubDate>Sun, 19 Oct 2025 18:08:36 GMT</pubDate>
   <media:content url="https://www.onthesignal.com/inventors/images/vollum.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

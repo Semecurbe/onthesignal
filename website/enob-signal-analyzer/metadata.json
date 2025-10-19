@@ -1,0 +1,5 @@
+{
+  "name": "ENOB Signal Analyzer",
+  "description": "An application that uses Pyodide and Python (NumPy, SciPy) to calculate the Effective Number of Bits (ENOB) of a generated signal and visualizes the signal using a plot.",
+  "requestFramePermissions": []
+}

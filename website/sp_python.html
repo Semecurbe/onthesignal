@@ -64,7 +64,7 @@
         }
         term.resume();
       }, {
-        greetings: '✅ Pyodide prêt.\nCommandes dispo: plot(x,y), scatter(x,y), bar(x,y), clear()\nExemple : \nimport numpy as np\nx = np.linspace(0, 10, 50)\ny = np.sin(x)\nplot(y, x)',
+        greetings: 'Pyodide ready.\nCommands: plot(x,y), scatter(x,y), bar(x,y), clear()\nExample : \nimport numpy as np\nx = np.linspace(0, 10, 50)\ny = np.sin(x)\nplot(y, x)',
         name: 'python_terminal',
         prompt: '>>> '
       });
@@ -116,7 +116,7 @@ def clear():
     return "Figure réinitialisée"
       `);
 
-      term.echo("🚀 NumPy, SciPy et pandas sont disponibles !");
+      term.echo("NumPy, SciPy and pandas are available !");
     }
 
     main();
@@ -125,10 +125,10 @@ def clear():
     const { figure, show } = Bokeh.Plotting;
     function showNewFigure() {
       document.querySelector("#bokeh").innerHTML = ""; // reset DOM
-      fig = figure({ title: "Graphiques interactifs", height: 700, width: 400 });
+      fig = figure({ title: "Plot", height: 700, width: 400 });
       show(fig, "#bokeh");
     }
-    window.showNewFigure = showNewFigure; // exposer à Python
+    window.showNewFigure = showNewFigure; // exposer python
     showNewFigure();
   </script>
 </body>
